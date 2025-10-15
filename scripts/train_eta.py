@@ -20,6 +20,7 @@ import os
 import json
 import argparse
 import math
+import random
 import numpy as np
 import pandas as pd
 from datetime import datetime
@@ -41,7 +42,7 @@ MODEL_INFO_PATH = os.path.join(OUT_DIR, "model_info.json")
 
 def try_xgboost():
     try:
-        import xgboost as xgb  # noqa
+        import xgboost  # noqa: F401
         return True
     except Exception:
         return False
@@ -106,9 +107,12 @@ def train_models(X_reg_train, X_reg_val, y_reg_train, y_reg_val,
     use_xgb = try_xgboost()
     print("XGBoost available:", use_xgb)
 
-    # Regressor
+    # initialize metrics to None (avoid possibly-unbound warnings)
+    mae = rmse = r2 = None
+
+    # Regressor (may be skipped if no flooded samples)
     reg = None
-    if y_reg_train is None or len(y_reg_train) == 0:
+    if y_reg_train is None or (hasattr(y_reg_train, "__len__") and len(y_reg_train) == 0):
         print("Warning: No training samples for regressor (no flooded rows). Skipping regressor training.")
     else:
         if use_xgb:
@@ -118,7 +122,9 @@ def train_models(X_reg_train, X_reg_val, y_reg_train, y_reg_val,
             reg = RandomForestRegressor(n_estimators=200, max_depth=20, random_state=42, n_jobs=-1)
 
         print("Training regression model...")
+        # fit
         reg.fit(X_reg_train, y_reg_train)
+        # eval
         y_reg_pred = reg.predict(X_reg_val)
         mae = mean_absolute_error(y_reg_val, y_reg_pred)
         # compute RMSE compatibly across sklearn versions
@@ -128,11 +134,9 @@ def train_models(X_reg_train, X_reg_val, y_reg_train, y_reg_val,
             rmse = math.sqrt(mean_squared_error(y_reg_val, y_reg_pred))
         r2 = r2_score(y_reg_val, y_reg_pred)
         print(f"Regressor results — MAE: {mae:.3f}, RMSE: {rmse:.3f}, R2: {r2:.3f}")
-    # If reg is None, set metrics to None placeholders
-    if reg is None:
-        mae = rmse = r2 = None
 
-    # Classifier
+    # Classifier (always train)
+    clf = None
     if use_xgb:
         from xgboost import XGBClassifier
         clf = XGBClassifier(n_estimators=300, max_depth=6, learning_rate=0.08, use_label_encoder=False, eval_metric="logloss", random_state=42, verbosity=0)
@@ -142,20 +146,36 @@ def train_models(X_reg_train, X_reg_val, y_reg_train, y_reg_val,
     print("Training classifier...")
     clf.fit(X_clf_train, y_clf_train)
     y_clf_pred = clf.predict(X_clf_val)
-    # try to get probability, if not available fallback to predictions
-    try:
-        y_clf_prob = clf.predict_proba(X_clf_val)[:, 1]
-    except Exception:
+
+    # Determine probabilities / scores in a safe way (use getattr + callable to satisfy Pylance)
+    y_clf_prob = None
+    pred_proba_fn = getattr(clf, "predict_proba", None)
+    if callable(pred_proba_fn):
         try:
-            # some classifiers may have decision_function
-            y_clf_prob = clf.decision_function(X_clf_val)
+            y_clf_prob = pred_proba_fn(X_clf_val)[:, 1]
         except Exception:
-            y_clf_prob = y_clf_pred
+            y_clf_prob = None
+
+    if y_clf_prob is None:
+        decision_fn = getattr(clf, "decision_function", None)
+        if callable(decision_fn):
+            try:
+                y_clf_prob = decision_fn(X_clf_val)
+            except Exception:
+                y_clf_prob = None
 
     acc = accuracy_score(y_clf_val, y_clf_pred)
     prec = precision_score(y_clf_val, y_clf_pred, zero_division=0)
     rec = recall_score(y_clf_val, y_clf_pred, zero_division=0)
-    roc = roc_auc_score(y_clf_val, y_clf_prob) if len(np.unique(y_clf_val)) > 1 else 0.0
+    # Only compute ROC-AUC if we have at least two classes in validation labels
+    try:
+        if len(np.unique(y_clf_val)) > 1:
+            roc = roc_auc_score(y_clf_val, y_clf_prob)
+        else:
+            roc = 0.0
+    except Exception:
+        roc = 0.0
+
     print(f"Classifier results — Acc: {acc:.3f}, Prec: {prec:.3f}, Rec: {rec:.3f}, ROC-AUC: {roc:.3f}")
 
     reg_metrics = {"mae": mae, "rmse": rmse, "r2": r2}
@@ -169,7 +189,7 @@ def save_models(reg, clf, feature_columns, metadata):
     # Save reg only if trained
     if reg is not None:
         joblib.dump(reg, REG_MODEL_PATH)
-    # Save classifier
+    # Save classifier (always)
     joblib.dump(clf, CLS_MODEL_PATH)
 
     info = {
@@ -194,12 +214,19 @@ def parse_args():
 
 def main():
     args = parse_args()
+    random.seed(args.seed)
+    np.random.seed(args.seed)
+
     features, labels = load_data()
 
     # quick mode: sample small subset for dev (but keep distribution)
     if args.quick:
         # take at most 5 scenarios per zone (if present) to keep dataset small
-        labels = labels.groupby("zone_id").head(5).reset_index(drop=True)
+        try:
+            labels = labels.groupby("zone_id").head(5).reset_index(drop=True)
+        except Exception:
+            # fallback: sample small fraction
+            labels = labels.sample(frac=0.1, random_state=args.seed).reset_index(drop=True)
 
     # load metadata medians + feature order if exists
     if os.path.exists(METADATA_PATH):
@@ -213,14 +240,14 @@ def main():
     # ------- Split for classifier (use full dataset) -------
     # Attempt stratified split on y_clf if both classes present and enough samples
     try:
-        if len(np.unique(y_clf)) > 1 and min(np.bincount(y_clf)) >= 2:
+        unique, counts = np.unique(y_clf, return_counts=True)
+        if len(unique) > 1 and min(counts) >= 2:
             X_clf_train, X_clf_val, y_clf_train, y_clf_val = train_test_split(
                 X, y_clf, test_size=0.2, random_state=args.seed, stratify=y_clf
             )
         else:
-            # fallback to non-stratified split
             X_clf_train, X_clf_val, y_clf_train, y_clf_val = train_test_split(
-                X, y_clf, test_size=0.2, random_state=args.seed, stratify=None
+                X, y_clf, test_size=0.2, random_state=args.seed
             )
     except Exception:
         X_clf_train, X_clf_val, y_clf_train, y_clf_val = train_test_split(
