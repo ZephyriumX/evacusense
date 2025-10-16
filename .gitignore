@@ -47,9 +47,6 @@ tmp/
 
 # --- Data / Artifacts ---
 # Raw or generated data shouldn't be pushed unless it's sample or schema
-data/raw/
-data/generated/
-!data/generated/.gitkeep   # allow empty placeholder if needed
 models/
 !models/.gitkeep           # same for empty model folder
 
@@ -62,7 +59,6 @@ models/
 
 # --- Outputs ---
 *.csv
-*.json
 !data/generated/firozepur_zones_summary.csv  # allow base static CSV if you want
 !data/raw/sensor_hourly.csv                  # allow base static CSV if needed
 

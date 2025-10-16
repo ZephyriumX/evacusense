@@ -1,0 +1,4502 @@
+[
+  {
+    "scenario_id": 1,
+    "type": "ramp",
+    "intensity_mm_per_hr": 80.33694783036721,
+    "duration_hours": 1.1000430208906677,
+    "initial_river_level": 184.10011727347649,
+    "initial_soil_saturation": 0.20088966433394048,
+    "timeseries_path": "sim_timeseries\\scenario_1.csv"
+  },
+  {
+    "scenario_id": 2,
+    "type": "step",
+    "intensity_mm_per_hr": 84.43694361652024,
+    "duration_hours": 4.568718270819382,
+    "initial_river_level": 183.34775533051766,
+    "initial_soil_saturation": 0.3797296377167434,
+    "timeseries_path": "sim_timeseries\\scenario_2.csv"
+  },
+  {
+    "scenario_id": 3,
+    "type": "ramp",
+    "intensity_mm_per_hr": 34.05017722839637,
+    "duration_hours": 3.0214211524134496,
+    "initial_river_level": 183.10614387873545,
+    "initial_soil_saturation": 0.17895388561798364,
+    "timeseries_path": "sim_timeseries\\scenario_3.csv"
+  },
+  {
+    "scenario_id": 4,
+    "type": "step",
+    "intensity_mm_per_hr": 69.94356286635383,
+    "duration_hours": 1.8817624881627868,
+    "initial_river_level": 185.35706273550363,
+    "initial_soil_saturation": 0.728487411010044,
+    "timeseries_path": "sim_timeseries\\scenario_4.csv"
+  },
+  {
+    "scenario_id": 5,
+    "type": "pulse",
+    "intensity_mm_per_hr": 98.64011770160887,
+    "duration_hours": 3.7925575799529074,
+    "initial_river_level": 184.36100206607196,
+    "initial_soil_saturation": 0.1399315498306034,
+    "timeseries_path": "sim_timeseries\\scenario_5.csv"
+  },
+  {
+    "scenario_id": 6,
+    "type": "ramp",
+    "intensity_mm_per_hr": 47.025399962388946,
+    "duration_hours": 1.3709833735205916,
+    "initial_river_level": 183.38686550733385,
+    "initial_soil_saturation": 0.7627449297127138,
+    "timeseries_path": "sim_timeseries\\scenario_6.csv"
+  },
+  {
+    "scenario_id": 7,
+    "type": "step",
+    "intensity_mm_per_hr": 98.78411006018182,
+    "duration_hours": 3.9189271467752715,
+    "initial_river_level": 185.1449123658188,
+    "initial_soil_saturation": 0.8758041875814335,
+    "timeseries_path": "sim_timeseries\\scenario_7.csv"
+  },
+  {
+    "scenario_id": 8,
+    "type": "step",
+    "intensity_mm_per_hr": 70.72446944005497,
+    "duration_hours": 4.317618657011979,
+    "initial_river_level": 185.47407900945697,
+    "initial_soil_saturation": 0.7755362102796995,
+    "timeseries_path": "sim_timeseries\\scenario_8.csv"
+  },
+  {
+    "scenario_id": 9,
+    "type": "step",
+    "intensity_mm_per_hr": 87.50290198364158,
+    "duration_hours": 1.1832975346226489,
+    "initial_river_level": 183.9115931026062,
+    "initial_soil_saturation": 0.2604491672418965,
+    "timeseries_path": "sim_timeseries\\scenario_9.csv"
+  },
+  {
+    "scenario_id": 10,
+    "type": "step",
+    "intensity_mm_per_hr": 35.606997499713316,
+    "duration_hours": 1.4040057176389165,
+    "initial_river_level": 184.11189441244036,
+    "initial_soil_saturation": 0.5721159998379601,
+    "timeseries_path": "sim_timeseries\\scenario_10.csv"
+  },
+  {
+    "scenario_id": 11,
+    "type": "ramp",
+    "intensity_mm_per_hr": 50.71990638285709,
+    "duration_hours": 1.8380281230859508,
+    "initial_river_level": 184.06791128819646,
+    "initial_soil_saturation": 0.8429891289412446,
+    "timeseries_path": "sim_timeseries\\scenario_11.csv"
+  },
+  {
+    "scenario_id": 12,
+    "type": "step",
+    "intensity_mm_per_hr": 77.0044106233687,
+    "duration_hours": 1.684554592792388,
+    "initial_river_level": 185.9165071918014,
+    "initial_soil_saturation": 0.14706224438573556,
+    "timeseries_path": "sim_timeseries\\scenario_12.csv"
+  },
+  {
+    "scenario_id": 13,
+    "type": "ramp",
+    "intensity_mm_per_hr": 118.84756857002547,
+    "duration_hours": 3.5599990394163714,
+    "initial_river_level": 185.22779897509858,
+    "initial_soil_saturation": 0.6161528258908872,
+    "timeseries_path": "sim_timeseries\\scenario_13.csv"
+  },
+  {
+    "scenario_id": 14,
+    "type": "step",
+    "intensity_mm_per_hr": 95.35999027008693,
+    "duration_hours": 1.9161922878564175,
+    "initial_river_level": 183.12840097561616,
+    "initial_soil_saturation": 0.28390774325317375,
+    "timeseries_path": "sim_timeseries\\scenario_14.csv"
+  },
+  {
+    "scenario_id": 15,
+    "type": "ramp",
+    "intensity_mm_per_hr": 33.20811279449591,
+    "duration_hours": 4.771638857340218,
+    "initial_river_level": 186.50547050589068,
+    "initial_soil_saturation": 0.2832100927186301,
+    "timeseries_path": "sim_timeseries\\scenario_15.csv"
+  },
+  {
+    "scenario_id": 16,
+    "type": "step",
+    "intensity_mm_per_hr": 53.51950911667307,
+    "duration_hours": 4.658190358962174,
+    "initial_river_level": 184.8354074103496,
+    "initial_soil_saturation": 0.23839214984824722,
+    "timeseries_path": "sim_timeseries\\scenario_16.csv"
+  },
+  {
+    "scenario_id": 17,
+    "type": "step",
+    "intensity_mm_per_hr": 71.75049475794658,
+    "duration_hours": 2.050966434091741,
+    "initial_river_level": 185.33834396089415,
+    "initial_soil_saturation": 0.8080405952422293,
+    "timeseries_path": "sim_timeseries\\scenario_17.csv"
+  },
+  {
+    "scenario_id": 18,
+    "type": "step",
+    "intensity_mm_per_hr": 34.12528350730116,
+    "duration_hours": 4.990150425980441,
+    "initial_river_level": 185.03810517470586,
+    "initial_soil_saturation": 0.08181847095641451,
+    "timeseries_path": "sim_timeseries\\scenario_18.csv"
+  },
+  {
+    "scenario_id": 19,
+    "type": "step",
+    "intensity_mm_per_hr": 22.06140433857251,
+    "duration_hours": 3.50978416681236,
+    "initial_river_level": 186.16831745745185,
+    "initial_soil_saturation": 0.37994397011971565,
+    "timeseries_path": "sim_timeseries\\scenario_19.csv"
+  },
+  {
+    "scenario_id": 20,
+    "type": "pulse",
+    "intensity_mm_per_hr": 51.978121515719046,
+    "duration_hours": 4.984485520960387,
+    "initial_river_level": 185.11645738039655,
+    "initial_soil_saturation": 0.8739705398522564,
+    "timeseries_path": "sim_timeseries\\scenario_20.csv"
+  },
+  {
+    "scenario_id": 21,
+    "type": "step",
+    "intensity_mm_per_hr": 11.26291241371016,
+    "duration_hours": 3.8828872774407786,
+    "initial_river_level": 185.7268414761063,
+    "initial_soil_saturation": 0.48327329736791563,
+    "timeseries_path": "sim_timeseries\\scenario_21.csv"
+  },
+  {
+    "scenario_id": 22,
+    "type": "pulse",
+    "intensity_mm_per_hr": 80.5057978437789,
+    "duration_hours": 1.4462086943835057,
+    "initial_river_level": 184.7390610026764,
+    "initial_soil_saturation": 0.4083513356962858,
+    "timeseries_path": "sim_timeseries\\scenario_22.csv"
+  },
+  {
+    "scenario_id": 23,
+    "type": "pulse",
+    "intensity_mm_per_hr": 106.34382344160134,
+    "duration_hours": 2.053556203004363,
+    "initial_river_level": 185.00234445220119,
+    "initial_soil_saturation": 0.16078669247711824,
+    "timeseries_path": "sim_timeseries\\scenario_23.csv"
+  },
+  {
+    "scenario_id": 24,
+    "type": "step",
+    "intensity_mm_per_hr": 105.75704268204436,
+    "duration_hours": 2.1937791657945316,
+    "initial_river_level": 185.55579797946402,
+    "initial_soil_saturation": 0.5480731902943551,
+    "timeseries_path": "sim_timeseries\\scenario_24.csv"
+  },
+  {
+    "scenario_id": 25,
+    "type": "step",
+    "intensity_mm_per_hr": 93.87618800826664,
+    "duration_hours": 3.157516120478503,
+    "initial_river_level": 186.11450591452223,
+    "initial_soil_saturation": 0.47731830497565975,
+    "timeseries_path": "sim_timeseries\\scenario_25.csv"
+  },
+  {
+    "scenario_id": 26,
+    "type": "ramp",
+    "intensity_mm_per_hr": 45.65716627051404,
+    "duration_hours": 1.0779069695433292,
+    "initial_river_level": 186.71639446505847,
+    "initial_soil_saturation": 0.7908496900408658,
+    "timeseries_path": "sim_timeseries\\scenario_26.csv"
+  },
+  {
+    "scenario_id": 27,
+    "type": "step",
+    "intensity_mm_per_hr": 43.82655379429276,
+    "duration_hours": 1.2317006659767502,
+    "initial_river_level": 186.51203839681617,
+    "initial_soil_saturation": 0.8522545007681946,
+    "timeseries_path": "sim_timeseries\\scenario_27.csv"
+  },
+  {
+    "scenario_id": 28,
+    "type": "step",
+    "intensity_mm_per_hr": 63.458950964827515,
+    "duration_hours": 1.2768500738735344,
+    "initial_river_level": 186.04240866102893,
+    "initial_soil_saturation": 0.689250986376289,
+    "timeseries_path": "sim_timeseries\\scenario_28.csv"
+  },
+  {
+    "scenario_id": 29,
+    "type": "step",
+    "intensity_mm_per_hr": 62.281061590860446,
+    "duration_hours": 3.1992143739797756,
+    "initial_river_level": 184.06022651576023,
+    "initial_soil_saturation": 0.7851897369767317,
+    "timeseries_path": "sim_timeseries\\scenario_29.csv"
+  },
+  {
+    "scenario_id": 30,
+    "type": "step",
+    "intensity_mm_per_hr": 33.297802598629026,
+    "duration_hours": 3.1571843551178334,
+    "initial_river_level": 185.91972427635991,
+    "initial_soil_saturation": 0.1810359570507263,
+    "timeseries_path": "sim_timeseries\\scenario_30.csv"
+  },
+  {
+    "scenario_id": 31,
+    "type": "step",
+    "intensity_mm_per_hr": 119.46642923269842,
+    "duration_hours": 3.599512230557814,
+    "initial_river_level": 184.75240033565802,
+    "initial_soil_saturation": 0.46581825693203155,
+    "timeseries_path": "sim_timeseries\\scenario_31.csv"
+  },
+  {
+    "scenario_id": 32,
+    "type": "step",
+    "intensity_mm_per_hr": 34.71670707347131,
+    "duration_hours": 2.3523422485898213,
+    "initial_river_level": 185.35323487382894,
+    "initial_soil_saturation": 0.2071032593369193,
+    "timeseries_path": "sim_timeseries\\scenario_32.csv"
+  },
+  {
+    "scenario_id": 33,
+    "type": "pulse",
+    "intensity_mm_per_hr": 17.80923946099358,
+    "duration_hours": 3.5244118290803956,
+    "initial_river_level": 183.9157671352446,
+    "initial_soil_saturation": 0.8148780117055152,
+    "timeseries_path": "sim_timeseries\\scenario_33.csv"
+  },
+  {
+    "scenario_id": 34,
+    "type": "step",
+    "intensity_mm_per_hr": 17.794308487751877,
+    "duration_hours": 1.9520185374759809,
+    "initial_river_level": 185.67591111318512,
+    "initial_soil_saturation": 0.19281312663339475,
+    "timeseries_path": "sim_timeseries\\scenario_34.csv"
+  },
+  {
+    "scenario_id": 35,
+    "type": "ramp",
+    "intensity_mm_per_hr": 112.90656646387382,
+    "duration_hours": 3.284172373301138,
+    "initial_river_level": 184.89068410524717,
+    "initial_soil_saturation": 0.706157481861678,
+    "timeseries_path": "sim_timeseries\\scenario_35.csv"
+  },
+  {
+    "scenario_id": 36,
+    "type": "step",
+    "intensity_mm_per_hr": 30.945090579806546,
+    "duration_hours": 1.3877232569152933,
+    "initial_river_level": 184.7242047296255,
+    "initial_soil_saturation": 0.3812207607179287,
+    "timeseries_path": "sim_timeseries\\scenario_36.csv"
+  },
+  {
+    "scenario_id": 37,
+    "type": "step",
+    "intensity_mm_per_hr": 90.19834344058357,
+    "duration_hours": 3.693458189173206,
+    "initial_river_level": 186.93666084546388,
+    "initial_soil_saturation": 0.088576084036763,
+    "timeseries_path": "sim_timeseries\\scenario_37.csv"
+  },
+  {
+    "scenario_id": 38,
+    "type": "step",
+    "intensity_mm_per_hr": 47.32328659344595,
+    "duration_hours": 4.446690145411164,
+    "initial_river_level": 183.99462533568115,
+    "initial_soil_saturation": 0.17118801759673036,
+    "timeseries_path": "sim_timeseries\\scenario_38.csv"
+  },
+  {
+    "scenario_id": 39,
+    "type": "step",
+    "intensity_mm_per_hr": 56.40698038178446,
+    "duration_hours": 2.114180578667762,
+    "initial_river_level": 183.9992257915284,
+    "initial_soil_saturation": 0.8309390393484115,
+    "timeseries_path": "sim_timeseries\\scenario_39.csv"
+  },
+  {
+    "scenario_id": 40,
+    "type": "ramp",
+    "intensity_mm_per_hr": 104.74840152380136,
+    "duration_hours": 3.2013012497993922,
+    "initial_river_level": 183.2023533180995,
+    "initial_soil_saturation": 0.899354221571454,
+    "timeseries_path": "sim_timeseries\\scenario_40.csv"
+  },
+  {
+    "scenario_id": 41,
+    "type": "step",
+    "intensity_mm_per_hr": 116.58958830132264,
+    "duration_hours": 4.70546793203251,
+    "initial_river_level": 186.39478293765723,
+    "initial_soil_saturation": 0.14967999954352262,
+    "timeseries_path": "sim_timeseries\\scenario_41.csv"
+  },
+  {
+    "scenario_id": 42,
+    "type": "pulse",
+    "intensity_mm_per_hr": 33.51220291190998,
+    "duration_hours": 2.6041611701978105,
+    "initial_river_level": 183.23454159988873,
+    "initial_soil_saturation": 0.3410758070792245,
+    "timeseries_path": "sim_timeseries\\scenario_42.csv"
+  },
+  {
+    "scenario_id": 43,
+    "type": "pulse",
+    "intensity_mm_per_hr": 39.172336398936714,
+    "duration_hours": 4.136282407794278,
+    "initial_river_level": 184.82003346935656,
+    "initial_soil_saturation": 0.38070673739114663,
+    "timeseries_path": "sim_timeseries\\scenario_43.csv"
+  },
+  {
+    "scenario_id": 44,
+    "type": "step",
+    "intensity_mm_per_hr": 119.49649584419852,
+    "duration_hours": 3.223073293622473,
+    "initial_river_level": 185.8736331011853,
+    "initial_soil_saturation": 0.1393171427466577,
+    "timeseries_path": "sim_timeseries\\scenario_44.csv"
+  },
+  {
+    "scenario_id": 45,
+    "type": "step",
+    "intensity_mm_per_hr": 116.55803014660746,
+    "duration_hours": 3.316721163265025,
+    "initial_river_level": 185.1687808054971,
+    "initial_soil_saturation": 0.6731780043411577,
+    "timeseries_path": "sim_timeseries\\scenario_45.csv"
+  },
+  {
+    "scenario_id": 46,
+    "type": "pulse",
+    "intensity_mm_per_hr": 74.25953539048683,
+    "duration_hours": 3.0114015316780542,
+    "initial_river_level": 186.41087956819314,
+    "initial_soil_saturation": 0.14168945514553494,
+    "timeseries_path": "sim_timeseries\\scenario_46.csv"
+  },
+  {
+    "scenario_id": 47,
+    "type": "step",
+    "intensity_mm_per_hr": 18.812261176464556,
+    "duration_hours": 1.7432998439228928,
+    "initial_river_level": 185.3801404258001,
+    "initial_soil_saturation": 0.6076912982436812,
+    "timeseries_path": "sim_timeseries\\scenario_47.csv"
+  },
+  {
+    "scenario_id": 48,
+    "type": "ramp",
+    "intensity_mm_per_hr": 23.18752753418366,
+    "duration_hours": 4.56114925651775,
+    "initial_river_level": 183.9848613911545,
+    "initial_soil_saturation": 0.535067238180097,
+    "timeseries_path": "sim_timeseries\\scenario_48.csv"
+  },
+  {
+    "scenario_id": 49,
+    "type": "step",
+    "intensity_mm_per_hr": 56.11474068694597,
+    "duration_hours": 3.334689157164899,
+    "initial_river_level": 185.09113086212784,
+    "initial_soil_saturation": 0.8412356319627845,
+    "timeseries_path": "sim_timeseries\\scenario_49.csv"
+  },
+  {
+    "scenario_id": 50,
+    "type": "step",
+    "intensity_mm_per_hr": 88.78109808683563,
+    "duration_hours": 1.954743810463384,
+    "initial_river_level": 184.58314338716502,
+    "initial_soil_saturation": 0.6045212006639742,
+    "timeseries_path": "sim_timeseries\\scenario_50.csv"
+  },
+  {
+    "scenario_id": 51,
+    "type": "pulse",
+    "intensity_mm_per_hr": 44.77949158990394,
+    "duration_hours": 4.007457969657608,
+    "initial_river_level": 183.29017245797263,
+    "initial_soil_saturation": 0.4124569703567275,
+    "timeseries_path": "sim_timeseries\\scenario_51.csv"
+  },
+  {
+    "scenario_id": 52,
+    "type": "pulse",
+    "intensity_mm_per_hr": 119.5706092640604,
+    "duration_hours": 1.293042884398532,
+    "initial_river_level": 183.85261724906817,
+    "initial_soil_saturation": 0.2386803732753612,
+    "timeseries_path": "sim_timeseries\\scenario_52.csv"
+  },
+  {
+    "scenario_id": 53,
+    "type": "ramp",
+    "intensity_mm_per_hr": 106.89505910550835,
+    "duration_hours": 4.517080969938171,
+    "initial_river_level": 184.47810835495554,
+    "initial_soil_saturation": 0.14197214912150877,
+    "timeseries_path": "sim_timeseries\\scenario_53.csv"
+  },
+  {
+    "scenario_id": 54,
+    "type": "step",
+    "intensity_mm_per_hr": 87.3893917596108,
+    "duration_hours": 3.4467110629038005,
+    "initial_river_level": 186.94893225452603,
+    "initial_soil_saturation": 0.5885786859396593,
+    "timeseries_path": "sim_timeseries\\scenario_54.csv"
+  },
+  {
+    "scenario_id": 55,
+    "type": "step",
+    "intensity_mm_per_hr": 99.88145486270078,
+    "duration_hours": 2.1975150087999116,
+    "initial_river_level": 185.6535548598643,
+    "initial_soil_saturation": 0.8450370035343935,
+    "timeseries_path": "sim_timeseries\\scenario_55.csv"
+  },
+  {
+    "scenario_id": 56,
+    "type": "ramp",
+    "intensity_mm_per_hr": 22.697153746101243,
+    "duration_hours": 1.4281439108376706,
+    "initial_river_level": 185.21289456353927,
+    "initial_soil_saturation": 0.2451133910833347,
+    "timeseries_path": "sim_timeseries\\scenario_56.csv"
+  },
+  {
+    "scenario_id": 57,
+    "type": "step",
+    "intensity_mm_per_hr": 88.93734058526778,
+    "duration_hours": 1.8143892493098117,
+    "initial_river_level": 185.53695183554032,
+    "initial_soil_saturation": 0.23758551146736848,
+    "timeseries_path": "sim_timeseries\\scenario_57.csv"
+  },
+  {
+    "scenario_id": 58,
+    "type": "step",
+    "intensity_mm_per_hr": 109.58701401872555,
+    "duration_hours": 4.384414853179422,
+    "initial_river_level": 183.36919387085092,
+    "initial_soil_saturation": 0.38121819530735374,
+    "timeseries_path": "sim_timeseries\\scenario_58.csv"
+  },
+  {
+    "scenario_id": 59,
+    "type": "ramp",
+    "intensity_mm_per_hr": 10.390025799656053,
+    "duration_hours": 4.084476892078508,
+    "initial_river_level": 185.54845350920553,
+    "initial_soil_saturation": 0.23575973619091337,
+    "timeseries_path": "sim_timeseries\\scenario_59.csv"
+  },
+  {
+    "scenario_id": 60,
+    "type": "pulse",
+    "intensity_mm_per_hr": 70.68484632390303,
+    "duration_hours": 2.7107476759227174,
+    "initial_river_level": 183.03867879843335,
+    "initial_soil_saturation": 0.06771947406639034,
+    "timeseries_path": "sim_timeseries\\scenario_60.csv"
+  },
+  {
+    "scenario_id": 61,
+    "type": "step",
+    "intensity_mm_per_hr": 109.43214287158824,
+    "duration_hours": 3.1823611568220893,
+    "initial_river_level": 186.33838007954407,
+    "initial_soil_saturation": 0.5242586098408146,
+    "timeseries_path": "sim_timeseries\\scenario_61.csv"
+  },
+  {
+    "scenario_id": 62,
+    "type": "pulse",
+    "intensity_mm_per_hr": 24.019007121035266,
+    "duration_hours": 2.2330333997205347,
+    "initial_river_level": 186.59592595497037,
+    "initial_soil_saturation": 0.7165100743992375,
+    "timeseries_path": "sim_timeseries\\scenario_62.csv"
+  },
+  {
+    "scenario_id": 63,
+    "type": "ramp",
+    "intensity_mm_per_hr": 108.8817100179122,
+    "duration_hours": 1.8403061533590162,
+    "initial_river_level": 183.9981189568917,
+    "initial_soil_saturation": 0.09251425950460707,
+    "timeseries_path": "sim_timeseries\\scenario_63.csv"
+  },
+  {
+    "scenario_id": 64,
+    "type": "pulse",
+    "intensity_mm_per_hr": 107.25481715961098,
+    "duration_hours": 2.625509559328467,
+    "initial_river_level": 185.48264604060284,
+    "initial_soil_saturation": 0.13909800449898418,
+    "timeseries_path": "sim_timeseries\\scenario_64.csv"
+  },
+  {
+    "scenario_id": 65,
+    "type": "step",
+    "intensity_mm_per_hr": 105.10662658419604,
+    "duration_hours": 4.904824131723851,
+    "initial_river_level": 186.2430868797616,
+    "initial_soil_saturation": 0.7932745841969919,
+    "timeseries_path": "sim_timeseries\\scenario_65.csv"
+  },
+  {
+    "scenario_id": 66,
+    "type": "pulse",
+    "intensity_mm_per_hr": 91.02209189305903,
+    "duration_hours": 2.3287418717857147,
+    "initial_river_level": 186.72326354419332,
+    "initial_soil_saturation": 0.7220116250434251,
+    "timeseries_path": "sim_timeseries\\scenario_66.csv"
+  },
+  {
+    "scenario_id": 67,
+    "type": "pulse",
+    "intensity_mm_per_hr": 99.18242482318279,
+    "duration_hours": 2.067222838377888,
+    "initial_river_level": 186.14949803654187,
+    "initial_soil_saturation": 0.0972860637626614,
+    "timeseries_path": "sim_timeseries\\scenario_67.csv"
+  },
+  {
+    "scenario_id": 68,
+    "type": "step",
+    "intensity_mm_per_hr": 104.44525764715598,
+    "duration_hours": 1.8897348701826577,
+    "initial_river_level": 186.26634642238773,
+    "initial_soil_saturation": 0.41427291121104787,
+    "timeseries_path": "sim_timeseries\\scenario_68.csv"
+  },
+  {
+    "scenario_id": 69,
+    "type": "step",
+    "intensity_mm_per_hr": 97.4880049068148,
+    "duration_hours": 1.9103819496310814,
+    "initial_river_level": 183.0946577388058,
+    "initial_soil_saturation": 0.1738168094949378,
+    "timeseries_path": "sim_timeseries\\scenario_69.csv"
+  },
+  {
+    "scenario_id": 70,
+    "type": "step",
+    "intensity_mm_per_hr": 105.0788236233315,
+    "duration_hours": 4.867556416193445,
+    "initial_river_level": 184.11649997088747,
+    "initial_soil_saturation": 0.5773335647468649,
+    "timeseries_path": "sim_timeseries\\scenario_70.csv"
+  },
+  {
+    "scenario_id": 71,
+    "type": "pulse",
+    "intensity_mm_per_hr": 117.92646559180861,
+    "duration_hours": 3.1448629299148876,
+    "initial_river_level": 186.75694856129886,
+    "initial_soil_saturation": 0.10380757666628483,
+    "timeseries_path": "sim_timeseries\\scenario_71.csv"
+  },
+  {
+    "scenario_id": 72,
+    "type": "step",
+    "intensity_mm_per_hr": 29.642459778971002,
+    "duration_hours": 4.850137263046221,
+    "initial_river_level": 184.0618654500919,
+    "initial_soil_saturation": 0.09756229249323999,
+    "timeseries_path": "sim_timeseries\\scenario_72.csv"
+  },
+  {
+    "scenario_id": 73,
+    "type": "step",
+    "intensity_mm_per_hr": 90.13995667179748,
+    "duration_hours": 2.254709256779965,
+    "initial_river_level": 185.42483541322457,
+    "initial_soil_saturation": 0.4602807537025303,
+    "timeseries_path": "sim_timeseries\\scenario_73.csv"
+  },
+  {
+    "scenario_id": 74,
+    "type": "pulse",
+    "intensity_mm_per_hr": 73.42468478462595,
+    "duration_hours": 2.0188900245543278,
+    "initial_river_level": 185.83514113533667,
+    "initial_soil_saturation": 0.0015221503967665195,
+    "timeseries_path": "sim_timeseries\\scenario_74.csv"
+  },
+  {
+    "scenario_id": 75,
+    "type": "step",
+    "intensity_mm_per_hr": 69.22971968020711,
+    "duration_hours": 3.877719996579382,
+    "initial_river_level": 185.9678003113579,
+    "initial_soil_saturation": 0.6035656539896995,
+    "timeseries_path": "sim_timeseries\\scenario_75.csv"
+  },
+  {
+    "scenario_id": 76,
+    "type": "ramp",
+    "intensity_mm_per_hr": 17.69711922389412,
+    "duration_hours": 3.6569507396450893,
+    "initial_river_level": 184.3208001441704,
+    "initial_soil_saturation": 0.2825240805525237,
+    "timeseries_path": "sim_timeseries\\scenario_76.csv"
+  },
+  {
+    "scenario_id": 77,
+    "type": "step",
+    "intensity_mm_per_hr": 89.17296893153451,
+    "duration_hours": 2.2012890728450567,
+    "initial_river_level": 184.23713864883462,
+    "initial_soil_saturation": 0.36755361775729517,
+    "timeseries_path": "sim_timeseries\\scenario_77.csv"
+  },
+  {
+    "scenario_id": 78,
+    "type": "ramp",
+    "intensity_mm_per_hr": 42.52207227785417,
+    "duration_hours": 1.5091511962366129,
+    "initial_river_level": 184.68178533509163,
+    "initial_soil_saturation": 0.8463273036571647,
+    "timeseries_path": "sim_timeseries\\scenario_78.csv"
+  },
+  {
+    "scenario_id": 79,
+    "type": "step",
+    "intensity_mm_per_hr": 109.30861003058409,
+    "duration_hours": 3.462059663805522,
+    "initial_river_level": 184.20379949826227,
+    "initial_soil_saturation": 0.4931434918221284,
+    "timeseries_path": "sim_timeseries\\scenario_79.csv"
+  },
+  {
+    "scenario_id": 80,
+    "type": "step",
+    "intensity_mm_per_hr": 41.560508855581986,
+    "duration_hours": 2.7195525999593384,
+    "initial_river_level": 185.31993912478274,
+    "initial_soil_saturation": 0.5892350613327645,
+    "timeseries_path": "sim_timeseries\\scenario_80.csv"
+  },
+  {
+    "scenario_id": 81,
+    "type": "ramp",
+    "intensity_mm_per_hr": 58.637577923528816,
+    "duration_hours": 1.8548056039564011,
+    "initial_river_level": 184.8927447436373,
+    "initial_soil_saturation": 0.8110627432454288,
+    "timeseries_path": "sim_timeseries\\scenario_81.csv"
+  },
+  {
+    "scenario_id": 82,
+    "type": "step",
+    "intensity_mm_per_hr": 28.66605358178602,
+    "duration_hours": 1.339182146900487,
+    "initial_river_level": 185.06180803966086,
+    "initial_soil_saturation": 0.5696467701892162,
+    "timeseries_path": "sim_timeseries\\scenario_82.csv"
+  },
+  {
+    "scenario_id": 83,
+    "type": "step",
+    "intensity_mm_per_hr": 100.02658109903307,
+    "duration_hours": 4.004552550162929,
+    "initial_river_level": 185.69118268222866,
+    "initial_soil_saturation": 0.20217659939755944,
+    "timeseries_path": "sim_timeseries\\scenario_83.csv"
+  },
+  {
+    "scenario_id": 84,
+    "type": "step",
+    "intensity_mm_per_hr": 12.686792649950897,
+    "duration_hours": 1.9793701763134006,
+    "initial_river_level": 184.90054537687521,
+    "initial_soil_saturation": 0.7647639251622588,
+    "timeseries_path": "sim_timeseries\\scenario_84.csv"
+  },
+  {
+    "scenario_id": 85,
+    "type": "step",
+    "intensity_mm_per_hr": 55.58851120974913,
+    "duration_hours": 3.519061522950855,
+    "initial_river_level": 183.77774094695883,
+    "initial_soil_saturation": 0.6267188254414544,
+    "timeseries_path": "sim_timeseries\\scenario_85.csv"
+  },
+  {
+    "scenario_id": 86,
+    "type": "ramp",
+    "intensity_mm_per_hr": 36.83828835362827,
+    "duration_hours": 3.6242320444471363,
+    "initial_river_level": 183.02217927255214,
+    "initial_soil_saturation": 0.6758680289566256,
+    "timeseries_path": "sim_timeseries\\scenario_86.csv"
+  },
+  {
+    "scenario_id": 87,
+    "type": "step",
+    "intensity_mm_per_hr": 21.724602621989284,
+    "duration_hours": 2.7005847757709365,
+    "initial_river_level": 183.70354672682612,
+    "initial_soil_saturation": 0.8621694380515857,
+    "timeseries_path": "sim_timeseries\\scenario_87.csv"
+  },
+  {
+    "scenario_id": 88,
+    "type": "ramp",
+    "intensity_mm_per_hr": 15.5240223654705,
+    "duration_hours": 1.9967931186398866,
+    "initial_river_level": 186.39334538940665,
+    "initial_soil_saturation": 0.4108156429231553,
+    "timeseries_path": "sim_timeseries\\scenario_88.csv"
+  },
+  {
+    "scenario_id": 89,
+    "type": "pulse",
+    "intensity_mm_per_hr": 83.43355058449885,
+    "duration_hours": 4.951569812265792,
+    "initial_river_level": 185.38180927387768,
+    "initial_soil_saturation": 0.8550356475988403,
+    "timeseries_path": "sim_timeseries\\scenario_89.csv"
+  },
+  {
+    "scenario_id": 90,
+    "type": "step",
+    "intensity_mm_per_hr": 77.39175550379392,
+    "duration_hours": 3.8770958451038684,
+    "initial_river_level": 185.0191126592976,
+    "initial_soil_saturation": 0.7475122527492736,
+    "timeseries_path": "sim_timeseries\\scenario_90.csv"
+  },
+  {
+    "scenario_id": 91,
+    "type": "step",
+    "intensity_mm_per_hr": 108.69289135565884,
+    "duration_hours": 3.9746217686383396,
+    "initial_river_level": 184.8986977472922,
+    "initial_soil_saturation": 0.23327239361851743,
+    "timeseries_path": "sim_timeseries\\scenario_91.csv"
+  },
+  {
+    "scenario_id": 92,
+    "type": "step",
+    "intensity_mm_per_hr": 80.14275804537719,
+    "duration_hours": 4.063254737188662,
+    "initial_river_level": 185.08519925131193,
+    "initial_soil_saturation": 0.5640735932836032,
+    "timeseries_path": "sim_timeseries\\scenario_92.csv"
+  },
+  {
+    "scenario_id": 93,
+    "type": "step",
+    "intensity_mm_per_hr": 18.52316892512094,
+    "duration_hours": 2.14291260345261,
+    "initial_river_level": 184.08686042832875,
+    "initial_soil_saturation": 0.28773861157688607,
+    "timeseries_path": "sim_timeseries\\scenario_93.csv"
+  },
+  {
+    "scenario_id": 94,
+    "type": "step",
+    "intensity_mm_per_hr": 25.22114676677713,
+    "duration_hours": 1.9250459189127471,
+    "initial_river_level": 185.7757992491962,
+    "initial_soil_saturation": 0.635777227525097,
+    "timeseries_path": "sim_timeseries\\scenario_94.csv"
+  },
+  {
+    "scenario_id": 95,
+    "type": "step",
+    "intensity_mm_per_hr": 54.83593066332454,
+    "duration_hours": 3.1704445620156614,
+    "initial_river_level": 184.66309693641261,
+    "initial_soil_saturation": 0.18615095056296924,
+    "timeseries_path": "sim_timeseries\\scenario_95.csv"
+  },
+  {
+    "scenario_id": 96,
+    "type": "ramp",
+    "intensity_mm_per_hr": 109.53223261741947,
+    "duration_hours": 3.3363176568169006,
+    "initial_river_level": 185.78209194599188,
+    "initial_soil_saturation": 0.7710588290735408,
+    "timeseries_path": "sim_timeseries\\scenario_96.csv"
+  },
+  {
+    "scenario_id": 97,
+    "type": "pulse",
+    "intensity_mm_per_hr": 51.84191318204828,
+    "duration_hours": 1.0235843343359723,
+    "initial_river_level": 184.4070352106873,
+    "initial_soil_saturation": 0.6781276125534473,
+    "timeseries_path": "sim_timeseries\\scenario_97.csv"
+  },
+  {
+    "scenario_id": 98,
+    "type": "ramp",
+    "intensity_mm_per_hr": 114.87733723171169,
+    "duration_hours": 2.6760851305192874,
+    "initial_river_level": 185.9900626759122,
+    "initial_soil_saturation": 0.4915190787604552,
+    "timeseries_path": "sim_timeseries\\scenario_98.csv"
+  },
+  {
+    "scenario_id": 99,
+    "type": "step",
+    "intensity_mm_per_hr": 34.25925637562008,
+    "duration_hours": 1.8776865384857446,
+    "initial_river_level": 184.74334390418656,
+    "initial_soil_saturation": 0.026122337952043717,
+    "timeseries_path": "sim_timeseries\\scenario_99.csv"
+  },
+  {
+    "scenario_id": 100,
+    "type": "step",
+    "intensity_mm_per_hr": 84.70560735311847,
+    "duration_hours": 2.6172666765505483,
+    "initial_river_level": 183.66017892481403,
+    "initial_soil_saturation": 0.42065113430907913,
+    "timeseries_path": "sim_timeseries\\scenario_100.csv"
+  },
+  {
+    "scenario_id": 101,
+    "type": "step",
+    "intensity_mm_per_hr": 78.44826570714712,
+    "duration_hours": 1.1078658076205508,
+    "initial_river_level": 184.57608102535883,
+    "initial_soil_saturation": 0.5079527847222968,
+    "timeseries_path": "sim_timeseries\\scenario_101.csv"
+  },
+  {
+    "scenario_id": 102,
+    "type": "step",
+    "intensity_mm_per_hr": 80.70246128102693,
+    "duration_hours": 1.542797948922257,
+    "initial_river_level": 184.84679377620606,
+    "initial_soil_saturation": 0.045256170139764795,
+    "timeseries_path": "sim_timeseries\\scenario_102.csv"
+  },
+  {
+    "scenario_id": 103,
+    "type": "ramp",
+    "intensity_mm_per_hr": 33.28263126326297,
+    "duration_hours": 2.307383219525234,
+    "initial_river_level": 186.0449188315761,
+    "initial_soil_saturation": 0.34121359400772266,
+    "timeseries_path": "sim_timeseries\\scenario_103.csv"
+  },
+  {
+    "scenario_id": 104,
+    "type": "step",
+    "intensity_mm_per_hr": 101.51167136707998,
+    "duration_hours": 2.0090861271295224,
+    "initial_river_level": 183.32762493104656,
+    "initial_soil_saturation": 0.01744495834500962,
+    "timeseries_path": "sim_timeseries\\scenario_104.csv"
+  },
+  {
+    "scenario_id": 105,
+    "type": "ramp",
+    "intensity_mm_per_hr": 119.98986113601302,
+    "duration_hours": 2.3998413748807357,
+    "initial_river_level": 185.6005763729995,
+    "initial_soil_saturation": 0.7031097446498055,
+    "timeseries_path": "sim_timeseries\\scenario_105.csv"
+  },
+  {
+    "scenario_id": 106,
+    "type": "step",
+    "intensity_mm_per_hr": 92.96565244654788,
+    "duration_hours": 4.798446930863955,
+    "initial_river_level": 183.79744272945013,
+    "initial_soil_saturation": 0.01834201558829911,
+    "timeseries_path": "sim_timeseries\\scenario_106.csv"
+  },
+  {
+    "scenario_id": 107,
+    "type": "ramp",
+    "intensity_mm_per_hr": 23.884307236162687,
+    "duration_hours": 3.6778353784796427,
+    "initial_river_level": 185.25587832772007,
+    "initial_soil_saturation": 0.19616808681585327,
+    "timeseries_path": "sim_timeseries\\scenario_107.csv"
+  },
+  {
+    "scenario_id": 108,
+    "type": "step",
+    "intensity_mm_per_hr": 94.35879081918648,
+    "duration_hours": 1.671156573471209,
+    "initial_river_level": 185.42898997556372,
+    "initial_soil_saturation": 0.6731330867597572,
+    "timeseries_path": "sim_timeseries\\scenario_108.csv"
+  },
+  {
+    "scenario_id": 109,
+    "type": "step",
+    "intensity_mm_per_hr": 100.12312917421936,
+    "duration_hours": 4.858883092136351,
+    "initial_river_level": 183.43239499863043,
+    "initial_soil_saturation": 0.023110582947719418,
+    "timeseries_path": "sim_timeseries\\scenario_109.csv"
+  },
+  {
+    "scenario_id": 110,
+    "type": "step",
+    "intensity_mm_per_hr": 84.50820155354496,
+    "duration_hours": 4.832691352823584,
+    "initial_river_level": 184.5866177660665,
+    "initial_soil_saturation": 0.6435132345445216,
+    "timeseries_path": "sim_timeseries\\scenario_110.csv"
+  },
+  {
+    "scenario_id": 111,
+    "type": "pulse",
+    "intensity_mm_per_hr": 85.96758575262784,
+    "duration_hours": 3.508969582404178,
+    "initial_river_level": 183.4076052217839,
+    "initial_soil_saturation": 0.6952327964561016,
+    "timeseries_path": "sim_timeseries\\scenario_111.csv"
+  },
+  {
+    "scenario_id": 112,
+    "type": "step",
+    "intensity_mm_per_hr": 76.04527762985285,
+    "duration_hours": 1.4842202602692605,
+    "initial_river_level": 186.93537740605868,
+    "initial_soil_saturation": 0.7043718117249177,
+    "timeseries_path": "sim_timeseries\\scenario_112.csv"
+  },
+  {
+    "scenario_id": 113,
+    "type": "ramp",
+    "intensity_mm_per_hr": 57.12158145582189,
+    "duration_hours": 2.4822835048722247,
+    "initial_river_level": 185.0238431587083,
+    "initial_soil_saturation": 0.3071080573751549,
+    "timeseries_path": "sim_timeseries\\scenario_113.csv"
+  },
+  {
+    "scenario_id": 114,
+    "type": "ramp",
+    "intensity_mm_per_hr": 100.45640098990638,
+    "duration_hours": 1.4221554825759943,
+    "initial_river_level": 186.84315026885832,
+    "initial_soil_saturation": 0.5720265954913013,
+    "timeseries_path": "sim_timeseries\\scenario_114.csv"
+  },
+  {
+    "scenario_id": 115,
+    "type": "step",
+    "intensity_mm_per_hr": 87.80395080766846,
+    "duration_hours": 2.741948580030708,
+    "initial_river_level": 185.93518121605356,
+    "initial_soil_saturation": 0.8689263581142699,
+    "timeseries_path": "sim_timeseries\\scenario_115.csv"
+  },
+  {
+    "scenario_id": 116,
+    "type": "ramp",
+    "intensity_mm_per_hr": 98.90191406874315,
+    "duration_hours": 3.152691625793023,
+    "initial_river_level": 184.93399001553277,
+    "initial_soil_saturation": 0.3920170437035049,
+    "timeseries_path": "sim_timeseries\\scenario_116.csv"
+  },
+  {
+    "scenario_id": 117,
+    "type": "pulse",
+    "intensity_mm_per_hr": 39.52350918541479,
+    "duration_hours": 4.406852640077327,
+    "initial_river_level": 186.3229240755624,
+    "initial_soil_saturation": 0.07799660825010696,
+    "timeseries_path": "sim_timeseries\\scenario_117.csv"
+  },
+  {
+    "scenario_id": 118,
+    "type": "step",
+    "intensity_mm_per_hr": 36.824978311005154,
+    "duration_hours": 2.858833866412927,
+    "initial_river_level": 185.44132681692207,
+    "initial_soil_saturation": 0.34109037371543766,
+    "timeseries_path": "sim_timeseries\\scenario_118.csv"
+  },
+  {
+    "scenario_id": 119,
+    "type": "step",
+    "intensity_mm_per_hr": 103.60481199437051,
+    "duration_hours": 1.7273594286307672,
+    "initial_river_level": 183.84847940071896,
+    "initial_soil_saturation": 0.7180491211452869,
+    "timeseries_path": "sim_timeseries\\scenario_119.csv"
+  },
+  {
+    "scenario_id": 120,
+    "type": "pulse",
+    "intensity_mm_per_hr": 106.8351977734048,
+    "duration_hours": 3.8047350013288064,
+    "initial_river_level": 184.10507430302474,
+    "initial_soil_saturation": 0.0091360029948094,
+    "timeseries_path": "sim_timeseries\\scenario_120.csv"
+  },
+  {
+    "scenario_id": 121,
+    "type": "ramp",
+    "intensity_mm_per_hr": 19.417425815382337,
+    "duration_hours": 3.880298656416777,
+    "initial_river_level": 184.95431138739514,
+    "initial_soil_saturation": 0.6823481881342198,
+    "timeseries_path": "sim_timeseries\\scenario_121.csv"
+  },
+  {
+    "scenario_id": 122,
+    "type": "step",
+    "intensity_mm_per_hr": 81.04931897150475,
+    "duration_hours": 2.9632853403143447,
+    "initial_river_level": 186.17173147252927,
+    "initial_soil_saturation": 0.0837480154992045,
+    "timeseries_path": "sim_timeseries\\scenario_122.csv"
+  },
+  {
+    "scenario_id": 123,
+    "type": "step",
+    "intensity_mm_per_hr": 86.0965870824722,
+    "duration_hours": 2.2248241205203536,
+    "initial_river_level": 185.32622234132947,
+    "initial_soil_saturation": 0.42593443988357227,
+    "timeseries_path": "sim_timeseries\\scenario_123.csv"
+  },
+  {
+    "scenario_id": 124,
+    "type": "step",
+    "intensity_mm_per_hr": 56.80541939757362,
+    "duration_hours": 3.9837417468544385,
+    "initial_river_level": 184.32316518878372,
+    "initial_soil_saturation": 0.6325694479671921,
+    "timeseries_path": "sim_timeseries\\scenario_124.csv"
+  },
+  {
+    "scenario_id": 125,
+    "type": "step",
+    "intensity_mm_per_hr": 37.654404382103564,
+    "duration_hours": 1.4826235390092233,
+    "initial_river_level": 183.77033717380607,
+    "initial_soil_saturation": 0.10759926712954755,
+    "timeseries_path": "sim_timeseries\\scenario_125.csv"
+  },
+  {
+    "scenario_id": 126,
+    "type": "ramp",
+    "intensity_mm_per_hr": 93.84085704325133,
+    "duration_hours": 1.7405993697506479,
+    "initial_river_level": 183.86553855951442,
+    "initial_soil_saturation": 0.43577872849143784,
+    "timeseries_path": "sim_timeseries\\scenario_126.csv"
+  },
+  {
+    "scenario_id": 127,
+    "type": "step",
+    "intensity_mm_per_hr": 117.42677251713624,
+    "duration_hours": 3.0985474764344314,
+    "initial_river_level": 184.13199481309982,
+    "initial_soil_saturation": 0.0904734972817117,
+    "timeseries_path": "sim_timeseries\\scenario_127.csv"
+  },
+  {
+    "scenario_id": 128,
+    "type": "step",
+    "intensity_mm_per_hr": 35.02314798308102,
+    "duration_hours": 1.7177661747416133,
+    "initial_river_level": 183.05659346902425,
+    "initial_soil_saturation": 0.48072158034089696,
+    "timeseries_path": "sim_timeseries\\scenario_128.csv"
+  },
+  {
+    "scenario_id": 129,
+    "type": "pulse",
+    "intensity_mm_per_hr": 117.17244242130117,
+    "duration_hours": 3.213435867194433,
+    "initial_river_level": 185.7896695716408,
+    "initial_soil_saturation": 0.11365154366256801,
+    "timeseries_path": "sim_timeseries\\scenario_129.csv"
+  },
+  {
+    "scenario_id": 130,
+    "type": "step",
+    "intensity_mm_per_hr": 63.99665639761567,
+    "duration_hours": 4.490878939994138,
+    "initial_river_level": 185.29625687850532,
+    "initial_soil_saturation": 0.4224572504374592,
+    "timeseries_path": "sim_timeseries\\scenario_130.csv"
+  },
+  {
+    "scenario_id": 131,
+    "type": "ramp",
+    "intensity_mm_per_hr": 30.28000374290899,
+    "duration_hours": 1.2055068687343113,
+    "initial_river_level": 186.7642543870724,
+    "initial_soil_saturation": 0.42995626853911895,
+    "timeseries_path": "sim_timeseries\\scenario_131.csv"
+  },
+  {
+    "scenario_id": 132,
+    "type": "step",
+    "intensity_mm_per_hr": 54.07781864771337,
+    "duration_hours": 1.2963286810225592,
+    "initial_river_level": 185.517782827808,
+    "initial_soil_saturation": 0.04824816686327983,
+    "timeseries_path": "sim_timeseries\\scenario_132.csv"
+  },
+  {
+    "scenario_id": 133,
+    "type": "ramp",
+    "intensity_mm_per_hr": 71.91235567930207,
+    "duration_hours": 2.2153420473689107,
+    "initial_river_level": 186.97567249084088,
+    "initial_soil_saturation": 0.10660640599031543,
+    "timeseries_path": "sim_timeseries\\scenario_133.csv"
+  },
+  {
+    "scenario_id": 134,
+    "type": "step",
+    "intensity_mm_per_hr": 76.6949416367259,
+    "duration_hours": 4.162963319373677,
+    "initial_river_level": 183.90274854826015,
+    "initial_soil_saturation": 0.47031528161719605,
+    "timeseries_path": "sim_timeseries\\scenario_134.csv"
+  },
+  {
+    "scenario_id": 135,
+    "type": "ramp",
+    "intensity_mm_per_hr": 58.69931044212612,
+    "duration_hours": 4.44066666330472,
+    "initial_river_level": 186.9601250418672,
+    "initial_soil_saturation": 0.27484221988742435,
+    "timeseries_path": "sim_timeseries\\scenario_135.csv"
+  },
+  {
+    "scenario_id": 136,
+    "type": "step",
+    "intensity_mm_per_hr": 77.05940034696434,
+    "duration_hours": 3.96035722193818,
+    "initial_river_level": 186.79036080130152,
+    "initial_soil_saturation": 0.1870091152411962,
+    "timeseries_path": "sim_timeseries\\scenario_136.csv"
+  },
+  {
+    "scenario_id": 137,
+    "type": "step",
+    "intensity_mm_per_hr": 82.64709509112403,
+    "duration_hours": 1.6282283735235086,
+    "initial_river_level": 183.69525419330574,
+    "initial_soil_saturation": 0.06755838201105113,
+    "timeseries_path": "sim_timeseries\\scenario_137.csv"
+  },
+  {
+    "scenario_id": 138,
+    "type": "ramp",
+    "intensity_mm_per_hr": 59.555407507947265,
+    "duration_hours": 3.375244780478253,
+    "initial_river_level": 184.1650371561241,
+    "initial_soil_saturation": 0.20832861110042325,
+    "timeseries_path": "sim_timeseries\\scenario_138.csv"
+  },
+  {
+    "scenario_id": 139,
+    "type": "ramp",
+    "intensity_mm_per_hr": 87.32863139030889,
+    "duration_hours": 2.816125305628173,
+    "initial_river_level": 185.74953968028498,
+    "initial_soil_saturation": 0.8315199400342939,
+    "timeseries_path": "sim_timeseries\\scenario_139.csv"
+  },
+  {
+    "scenario_id": 140,
+    "type": "step",
+    "intensity_mm_per_hr": 78.7563807880644,
+    "duration_hours": 3.6447321714134713,
+    "initial_river_level": 186.73467383378204,
+    "initial_soil_saturation": 0.3826250694937905,
+    "timeseries_path": "sim_timeseries\\scenario_140.csv"
+  },
+  {
+    "scenario_id": 141,
+    "type": "step",
+    "intensity_mm_per_hr": 81.23981957427289,
+    "duration_hours": 4.633645780850424,
+    "initial_river_level": 186.30652463860025,
+    "initial_soil_saturation": 0.06426885317023273,
+    "timeseries_path": "sim_timeseries\\scenario_141.csv"
+  },
+  {
+    "scenario_id": 142,
+    "type": "step",
+    "intensity_mm_per_hr": 43.83729938756558,
+    "duration_hours": 3.995830888278493,
+    "initial_river_level": 185.27682819727636,
+    "initial_soil_saturation": 0.2597495294752576,
+    "timeseries_path": "sim_timeseries\\scenario_142.csv"
+  },
+  {
+    "scenario_id": 143,
+    "type": "step",
+    "intensity_mm_per_hr": 85.75457903333032,
+    "duration_hours": 3.7989347399028692,
+    "initial_river_level": 186.77070496297617,
+    "initial_soil_saturation": 0.45042495940613303,
+    "timeseries_path": "sim_timeseries\\scenario_143.csv"
+  },
+  {
+    "scenario_id": 144,
+    "type": "step",
+    "intensity_mm_per_hr": 18.848603708923108,
+    "duration_hours": 1.1594431367344522,
+    "initial_river_level": 184.7281146566431,
+    "initial_soil_saturation": 0.29008942502247,
+    "timeseries_path": "sim_timeseries\\scenario_144.csv"
+  },
+  {
+    "scenario_id": 145,
+    "type": "pulse",
+    "intensity_mm_per_hr": 20.045957529408373,
+    "duration_hours": 4.847644408771346,
+    "initial_river_level": 186.34383445562472,
+    "initial_soil_saturation": 0.5176791982979374,
+    "timeseries_path": "sim_timeseries\\scenario_145.csv"
+  },
+  {
+    "scenario_id": 146,
+    "type": "ramp",
+    "intensity_mm_per_hr": 119.95296585651965,
+    "duration_hours": 3.689126337212957,
+    "initial_river_level": 184.07804410386822,
+    "initial_soil_saturation": 0.03620850583015456,
+    "timeseries_path": "sim_timeseries\\scenario_146.csv"
+  },
+  {
+    "scenario_id": 147,
+    "type": "step",
+    "intensity_mm_per_hr": 61.755090557679694,
+    "duration_hours": 3.6060379577347454,
+    "initial_river_level": 186.66429115170706,
+    "initial_soil_saturation": 0.16334023250081334,
+    "timeseries_path": "sim_timeseries\\scenario_147.csv"
+  },
+  {
+    "scenario_id": 148,
+    "type": "step",
+    "intensity_mm_per_hr": 79.82631913994956,
+    "duration_hours": 2.9669032087640534,
+    "initial_river_level": 183.36496962517532,
+    "initial_soil_saturation": 0.3131649506651854,
+    "timeseries_path": "sim_timeseries\\scenario_148.csv"
+  },
+  {
+    "scenario_id": 149,
+    "type": "step",
+    "intensity_mm_per_hr": 83.7146860473304,
+    "duration_hours": 4.43093237760141,
+    "initial_river_level": 184.31921465431586,
+    "initial_soil_saturation": 0.6243063065850892,
+    "timeseries_path": "sim_timeseries\\scenario_149.csv"
+  },
+  {
+    "scenario_id": 150,
+    "type": "step",
+    "intensity_mm_per_hr": 113.97128935195317,
+    "duration_hours": 4.254264138951891,
+    "initial_river_level": 185.20038643588714,
+    "initial_soil_saturation": 0.4093433177415565,
+    "timeseries_path": "sim_timeseries\\scenario_150.csv"
+  },
+  {
+    "scenario_id": 151,
+    "type": "pulse",
+    "intensity_mm_per_hr": 45.56011649035941,
+    "duration_hours": 4.880738907234308,
+    "initial_river_level": 184.61670022800297,
+    "initial_soil_saturation": 0.46313662709619463,
+    "timeseries_path": "sim_timeseries\\scenario_151.csv"
+  },
+  {
+    "scenario_id": 152,
+    "type": "step",
+    "intensity_mm_per_hr": 82.34264251314418,
+    "duration_hours": 3.17037437742878,
+    "initial_river_level": 184.65299028319728,
+    "initial_soil_saturation": 0.16882428725507442,
+    "timeseries_path": "sim_timeseries\\scenario_152.csv"
+  },
+  {
+    "scenario_id": 153,
+    "type": "step",
+    "intensity_mm_per_hr": 93.20874694611311,
+    "duration_hours": 3.501634968580036,
+    "initial_river_level": 186.03996214424407,
+    "initial_soil_saturation": 0.1832024145152465,
+    "timeseries_path": "sim_timeseries\\scenario_153.csv"
+  },
+  {
+    "scenario_id": 154,
+    "type": "pulse",
+    "intensity_mm_per_hr": 112.04400369288925,
+    "duration_hours": 2.752464380289513,
+    "initial_river_level": 185.79300011648868,
+    "initial_soil_saturation": 0.10928347502635787,
+    "timeseries_path": "sim_timeseries\\scenario_154.csv"
+  },
+  {
+    "scenario_id": 155,
+    "type": "step",
+    "intensity_mm_per_hr": 76.97588337901614,
+    "duration_hours": 1.9571898493106015,
+    "initial_river_level": 183.63351265522093,
+    "initial_soil_saturation": 0.495755106302403,
+    "timeseries_path": "sim_timeseries\\scenario_155.csv"
+  },
+  {
+    "scenario_id": 156,
+    "type": "step",
+    "intensity_mm_per_hr": 20.253012140967478,
+    "duration_hours": 4.969028557580879,
+    "initial_river_level": 186.65171951393668,
+    "initial_soil_saturation": 0.4153031047609051,
+    "timeseries_path": "sim_timeseries\\scenario_156.csv"
+  },
+  {
+    "scenario_id": 157,
+    "type": "step",
+    "intensity_mm_per_hr": 101.53574911457913,
+    "duration_hours": 2.993502018828781,
+    "initial_river_level": 185.86641330396716,
+    "initial_soil_saturation": 0.4579848135625606,
+    "timeseries_path": "sim_timeseries\\scenario_157.csv"
+  },
+  {
+    "scenario_id": 158,
+    "type": "step",
+    "intensity_mm_per_hr": 101.81963401343639,
+    "duration_hours": 4.920978530413501,
+    "initial_river_level": 183.97492362430054,
+    "initial_soil_saturation": 0.4961385691924227,
+    "timeseries_path": "sim_timeseries\\scenario_158.csv"
+  },
+  {
+    "scenario_id": 159,
+    "type": "step",
+    "intensity_mm_per_hr": 111.4054964924718,
+    "duration_hours": 3.032963566371576,
+    "initial_river_level": 186.5173050205859,
+    "initial_soil_saturation": 0.7776242409857294,
+    "timeseries_path": "sim_timeseries\\scenario_159.csv"
+  },
+  {
+    "scenario_id": 160,
+    "type": "ramp",
+    "intensity_mm_per_hr": 96.90068002034248,
+    "duration_hours": 2.6597696942053806,
+    "initial_river_level": 186.7369935747301,
+    "initial_soil_saturation": 0.4569639082286908,
+    "timeseries_path": "sim_timeseries\\scenario_160.csv"
+  },
+  {
+    "scenario_id": 161,
+    "type": "step",
+    "intensity_mm_per_hr": 41.11228816111093,
+    "duration_hours": 2.1942233990870688,
+    "initial_river_level": 185.34775088965665,
+    "initial_soil_saturation": 0.8990120999064048,
+    "timeseries_path": "sim_timeseries\\scenario_161.csv"
+  },
+  {
+    "scenario_id": 162,
+    "type": "step",
+    "intensity_mm_per_hr": 26.3454960221068,
+    "duration_hours": 3.1543223108154947,
+    "initial_river_level": 184.38049576677204,
+    "initial_soil_saturation": 0.4967256753637299,
+    "timeseries_path": "sim_timeseries\\scenario_162.csv"
+  },
+  {
+    "scenario_id": 163,
+    "type": "step",
+    "intensity_mm_per_hr": 60.087907855315116,
+    "duration_hours": 2.2871094009161497,
+    "initial_river_level": 183.75460949482843,
+    "initial_soil_saturation": 0.6277485848585143,
+    "timeseries_path": "sim_timeseries\\scenario_163.csv"
+  },
+  {
+    "scenario_id": 164,
+    "type": "ramp",
+    "intensity_mm_per_hr": 35.69186906636824,
+    "duration_hours": 4.102177900397035,
+    "initial_river_level": 183.1745891963892,
+    "initial_soil_saturation": 0.6702346364086763,
+    "timeseries_path": "sim_timeseries\\scenario_164.csv"
+  },
+  {
+    "scenario_id": 165,
+    "type": "pulse",
+    "intensity_mm_per_hr": 99.25497928213646,
+    "duration_hours": 2.5443150099639293,
+    "initial_river_level": 185.65475531793814,
+    "initial_soil_saturation": 0.7386727965385995,
+    "timeseries_path": "sim_timeseries\\scenario_165.csv"
+  },
+  {
+    "scenario_id": 166,
+    "type": "pulse",
+    "intensity_mm_per_hr": 64.48615145780659,
+    "duration_hours": 1.1480784453823047,
+    "initial_river_level": 185.00916460053188,
+    "initial_soil_saturation": 0.5311623863786104,
+    "timeseries_path": "sim_timeseries\\scenario_166.csv"
+  },
+  {
+    "scenario_id": 167,
+    "type": "ramp",
+    "intensity_mm_per_hr": 106.16094114597392,
+    "duration_hours": 2.7612248390827085,
+    "initial_river_level": 185.10380434723024,
+    "initial_soil_saturation": 0.411235267026818,
+    "timeseries_path": "sim_timeseries\\scenario_167.csv"
+  },
+  {
+    "scenario_id": 168,
+    "type": "pulse",
+    "intensity_mm_per_hr": 55.09764817210009,
+    "duration_hours": 3.619125305710935,
+    "initial_river_level": 183.6174448750862,
+    "initial_soil_saturation": 0.4225415408862588,
+    "timeseries_path": "sim_timeseries\\scenario_168.csv"
+  },
+  {
+    "scenario_id": 169,
+    "type": "pulse",
+    "intensity_mm_per_hr": 47.241735745657486,
+    "duration_hours": 3.770818394347528,
+    "initial_river_level": 185.5993466103171,
+    "initial_soil_saturation": 0.7665887631156223,
+    "timeseries_path": "sim_timeseries\\scenario_169.csv"
+  },
+  {
+    "scenario_id": 170,
+    "type": "ramp",
+    "intensity_mm_per_hr": 104.52764025850932,
+    "duration_hours": 2.5200375900906202,
+    "initial_river_level": 184.2666446157336,
+    "initial_soil_saturation": 0.6468456827006847,
+    "timeseries_path": "sim_timeseries\\scenario_170.csv"
+  },
+  {
+    "scenario_id": 171,
+    "type": "pulse",
+    "intensity_mm_per_hr": 105.96213191383899,
+    "duration_hours": 1.1435963993507463,
+    "initial_river_level": 183.2736829887262,
+    "initial_soil_saturation": 0.5680449151691765,
+    "timeseries_path": "sim_timeseries\\scenario_171.csv"
+  },
+  {
+    "scenario_id": 172,
+    "type": "ramp",
+    "intensity_mm_per_hr": 119.71685152518369,
+    "duration_hours": 3.987065466951708,
+    "initial_river_level": 184.7358858876925,
+    "initial_soil_saturation": 0.08859881374487817,
+    "timeseries_path": "sim_timeseries\\scenario_172.csv"
+  },
+  {
+    "scenario_id": 173,
+    "type": "step",
+    "intensity_mm_per_hr": 105.98371558677998,
+    "duration_hours": 2.774714206646823,
+    "initial_river_level": 185.77600465117294,
+    "initial_soil_saturation": 0.8130816558454373,
+    "timeseries_path": "sim_timeseries\\scenario_173.csv"
+  },
+  {
+    "scenario_id": 174,
+    "type": "step",
+    "intensity_mm_per_hr": 97.5757811678433,
+    "duration_hours": 2.173471103860835,
+    "initial_river_level": 184.49936435910126,
+    "initial_soil_saturation": 0.1310128161294586,
+    "timeseries_path": "sim_timeseries\\scenario_174.csv"
+  },
+  {
+    "scenario_id": 175,
+    "type": "pulse",
+    "intensity_mm_per_hr": 72.25208681075304,
+    "duration_hours": 4.1700778955238125,
+    "initial_river_level": 183.6799345962724,
+    "initial_soil_saturation": 0.07107151559399517,
+    "timeseries_path": "sim_timeseries\\scenario_175.csv"
+  },
+  {
+    "scenario_id": 176,
+    "type": "step",
+    "intensity_mm_per_hr": 78.16814053911568,
+    "duration_hours": 1.9633191674252521,
+    "initial_river_level": 186.65131606409423,
+    "initial_soil_saturation": 0.12880594811565868,
+    "timeseries_path": "sim_timeseries\\scenario_176.csv"
+  },
+  {
+    "scenario_id": 177,
+    "type": "pulse",
+    "intensity_mm_per_hr": 37.937507335489656,
+    "duration_hours": 2.021306832636616,
+    "initial_river_level": 183.0375897258195,
+    "initial_soil_saturation": 0.7241697692776317,
+    "timeseries_path": "sim_timeseries\\scenario_177.csv"
+  },
+  {
+    "scenario_id": 178,
+    "type": "step",
+    "intensity_mm_per_hr": 84.53719742689874,
+    "duration_hours": 1.6319024882871478,
+    "initial_river_level": 184.76691913441525,
+    "initial_soil_saturation": 0.31100906199877354,
+    "timeseries_path": "sim_timeseries\\scenario_178.csv"
+  },
+  {
+    "scenario_id": 179,
+    "type": "step",
+    "intensity_mm_per_hr": 80.28325725960134,
+    "duration_hours": 2.6972357538435907,
+    "initial_river_level": 184.0003928976308,
+    "initial_soil_saturation": 0.7607735326283388,
+    "timeseries_path": "sim_timeseries\\scenario_179.csv"
+  },
+  {
+    "scenario_id": 180,
+    "type": "step",
+    "intensity_mm_per_hr": 52.316257386408004,
+    "duration_hours": 2.9328322442368644,
+    "initial_river_level": 183.9488228077103,
+    "initial_soil_saturation": 0.514730423115665,
+    "timeseries_path": "sim_timeseries\\scenario_180.csv"
+  },
+  {
+    "scenario_id": 181,
+    "type": "step",
+    "intensity_mm_per_hr": 119.19612479895873,
+    "duration_hours": 2.1809230155330774,
+    "initial_river_level": 186.91177793830744,
+    "initial_soil_saturation": 0.5924068343358126,
+    "timeseries_path": "sim_timeseries\\scenario_181.csv"
+  },
+  {
+    "scenario_id": 182,
+    "type": "ramp",
+    "intensity_mm_per_hr": 72.25219186512689,
+    "duration_hours": 3.7431979709360483,
+    "initial_river_level": 185.9786753646613,
+    "initial_soil_saturation": 0.04413982569839995,
+    "timeseries_path": "sim_timeseries\\scenario_182.csv"
+  },
+  {
+    "scenario_id": 183,
+    "type": "ramp",
+    "intensity_mm_per_hr": 64.64000151762573,
+    "duration_hours": 4.6166211635749015,
+    "initial_river_level": 184.14477660583677,
+    "initial_soil_saturation": 0.7189741075568389,
+    "timeseries_path": "sim_timeseries\\scenario_183.csv"
+  },
+  {
+    "scenario_id": 184,
+    "type": "ramp",
+    "intensity_mm_per_hr": 48.75530514188482,
+    "duration_hours": 3.5464715120235675,
+    "initial_river_level": 185.4835646525212,
+    "initial_soil_saturation": 0.6099880127610235,
+    "timeseries_path": "sim_timeseries\\scenario_184.csv"
+  },
+  {
+    "scenario_id": 185,
+    "type": "ramp",
+    "intensity_mm_per_hr": 82.5099694348429,
+    "duration_hours": 4.353348467850067,
+    "initial_river_level": 185.5129924147476,
+    "initial_soil_saturation": 0.8130633336656711,
+    "timeseries_path": "sim_timeseries\\scenario_185.csv"
+  },
+  {
+    "scenario_id": 186,
+    "type": "step",
+    "intensity_mm_per_hr": 43.98261723478997,
+    "duration_hours": 2.7632927606512463,
+    "initial_river_level": 185.31829522147362,
+    "initial_soil_saturation": 0.6591237911453145,
+    "timeseries_path": "sim_timeseries\\scenario_186.csv"
+  },
+  {
+    "scenario_id": 187,
+    "type": "step",
+    "intensity_mm_per_hr": 42.46214967920708,
+    "duration_hours": 3.989923459753486,
+    "initial_river_level": 183.70256028177724,
+    "initial_soil_saturation": 0.1189438179721052,
+    "timeseries_path": "sim_timeseries\\scenario_187.csv"
+  },
+  {
+    "scenario_id": 188,
+    "type": "step",
+    "intensity_mm_per_hr": 116.86385393324738,
+    "duration_hours": 3.12340949481114,
+    "initial_river_level": 186.6539478979268,
+    "initial_soil_saturation": 0.7474253576106576,
+    "timeseries_path": "sim_timeseries\\scenario_188.csv"
+  },
+  {
+    "scenario_id": 189,
+    "type": "step",
+    "intensity_mm_per_hr": 100.7158793796648,
+    "duration_hours": 2.927391319494965,
+    "initial_river_level": 186.22595397517506,
+    "initial_soil_saturation": 0.6719034156453405,
+    "timeseries_path": "sim_timeseries\\scenario_189.csv"
+  },
+  {
+    "scenario_id": 190,
+    "type": "pulse",
+    "intensity_mm_per_hr": 22.668667819473534,
+    "duration_hours": 4.85157317147551,
+    "initial_river_level": 183.56302806002353,
+    "initial_soil_saturation": 0.8698501885164769,
+    "timeseries_path": "sim_timeseries\\scenario_190.csv"
+  },
+  {
+    "scenario_id": 191,
+    "type": "step",
+    "intensity_mm_per_hr": 89.663838328307,
+    "duration_hours": 4.919768971127613,
+    "initial_river_level": 186.86907898920012,
+    "initial_soil_saturation": 0.7241288796185058,
+    "timeseries_path": "sim_timeseries\\scenario_191.csv"
+  },
+  {
+    "scenario_id": 192,
+    "type": "ramp",
+    "intensity_mm_per_hr": 96.97501654478312,
+    "duration_hours": 1.0556746204036047,
+    "initial_river_level": 185.14628923307623,
+    "initial_soil_saturation": 0.4093074249604872,
+    "timeseries_path": "sim_timeseries\\scenario_192.csv"
+  },
+  {
+    "scenario_id": 193,
+    "type": "step",
+    "intensity_mm_per_hr": 83.95748770861145,
+    "duration_hours": 3.338240366608664,
+    "initial_river_level": 186.28966920490709,
+    "initial_soil_saturation": 0.8462627026015987,
+    "timeseries_path": "sim_timeseries\\scenario_193.csv"
+  },
+  {
+    "scenario_id": 194,
+    "type": "pulse",
+    "intensity_mm_per_hr": 35.72040924327415,
+    "duration_hours": 1.1000985985859293,
+    "initial_river_level": 186.53693938085942,
+    "initial_soil_saturation": 0.505266644024891,
+    "timeseries_path": "sim_timeseries\\scenario_194.csv"
+  },
+  {
+    "scenario_id": 195,
+    "type": "step",
+    "intensity_mm_per_hr": 34.350392008138904,
+    "duration_hours": 1.2528681646407818,
+    "initial_river_level": 186.2954214055618,
+    "initial_soil_saturation": 0.8184488745851028,
+    "timeseries_path": "sim_timeseries\\scenario_195.csv"
+  },
+  {
+    "scenario_id": 196,
+    "type": "step",
+    "intensity_mm_per_hr": 54.9125441374954,
+    "duration_hours": 1.5591080500288843,
+    "initial_river_level": 186.7850461315278,
+    "initial_soil_saturation": 0.2739281259204047,
+    "timeseries_path": "sim_timeseries\\scenario_196.csv"
+  },
+  {
+    "scenario_id": 197,
+    "type": "ramp",
+    "intensity_mm_per_hr": 20.691119848400376,
+    "duration_hours": 4.549037234114009,
+    "initial_river_level": 183.54265619482535,
+    "initial_soil_saturation": 0.40827938120000334,
+    "timeseries_path": "sim_timeseries\\scenario_197.csv"
+  },
+  {
+    "scenario_id": 198,
+    "type": "step",
+    "intensity_mm_per_hr": 91.74541336754886,
+    "duration_hours": 4.783896343117728,
+    "initial_river_level": 184.6765070136589,
+    "initial_soil_saturation": 0.6680421132887843,
+    "timeseries_path": "sim_timeseries\\scenario_198.csv"
+  },
+  {
+    "scenario_id": 199,
+    "type": "pulse",
+    "intensity_mm_per_hr": 55.63729801804876,
+    "duration_hours": 1.396086538842114,
+    "initial_river_level": 184.95738815115845,
+    "initial_soil_saturation": 0.3673042971279305,
+    "timeseries_path": "sim_timeseries\\scenario_199.csv"
+  },
+  {
+    "scenario_id": 200,
+    "type": "pulse",
+    "intensity_mm_per_hr": 13.59879155405516,
+    "duration_hours": 2.4821198349377416,
+    "initial_river_level": 184.7735323442428,
+    "initial_soil_saturation": 0.8554996528662843,
+    "timeseries_path": "sim_timeseries\\scenario_200.csv"
+  },
+  {
+    "scenario_id": 201,
+    "type": "step",
+    "intensity_mm_per_hr": 20.929008706674335,
+    "duration_hours": 3.7427210619251414,
+    "initial_river_level": 185.17786344592858,
+    "initial_soil_saturation": 0.8800582765068421,
+    "timeseries_path": "sim_timeseries\\scenario_201.csv"
+  },
+  {
+    "scenario_id": 202,
+    "type": "step",
+    "intensity_mm_per_hr": 53.79536070188104,
+    "duration_hours": 1.7592342486443182,
+    "initial_river_level": 183.48863887634906,
+    "initial_soil_saturation": 0.763229869617313,
+    "timeseries_path": "sim_timeseries\\scenario_202.csv"
+  },
+  {
+    "scenario_id": 203,
+    "type": "ramp",
+    "intensity_mm_per_hr": 82.90456118681757,
+    "duration_hours": 3.5668178689328705,
+    "initial_river_level": 185.38858383807818,
+    "initial_soil_saturation": 0.019221709262733568,
+    "timeseries_path": "sim_timeseries\\scenario_203.csv"
+  },
+  {
+    "scenario_id": 204,
+    "type": "ramp",
+    "intensity_mm_per_hr": 36.792578688042596,
+    "duration_hours": 1.5036955412321715,
+    "initial_river_level": 185.25831190363186,
+    "initial_soil_saturation": 0.06174913754192031,
+    "timeseries_path": "sim_timeseries\\scenario_204.csv"
+  },
+  {
+    "scenario_id": 205,
+    "type": "step",
+    "intensity_mm_per_hr": 32.78731073813243,
+    "duration_hours": 1.863805407674699,
+    "initial_river_level": 186.47878170707818,
+    "initial_soil_saturation": 0.29570359808900737,
+    "timeseries_path": "sim_timeseries\\scenario_205.csv"
+  },
+  {
+    "scenario_id": 206,
+    "type": "step",
+    "intensity_mm_per_hr": 109.0584139194934,
+    "duration_hours": 1.0113422059200654,
+    "initial_river_level": 186.4336245055207,
+    "initial_soil_saturation": 0.13021918228845722,
+    "timeseries_path": "sim_timeseries\\scenario_206.csv"
+  },
+  {
+    "scenario_id": 207,
+    "type": "step",
+    "intensity_mm_per_hr": 37.57196164009362,
+    "duration_hours": 1.6979884836055739,
+    "initial_river_level": 185.64423057038925,
+    "initial_soil_saturation": 0.023202134807578524,
+    "timeseries_path": "sim_timeseries\\scenario_207.csv"
+  },
+  {
+    "scenario_id": 208,
+    "type": "step",
+    "intensity_mm_per_hr": 96.89831306582293,
+    "duration_hours": 1.9517264243618522,
+    "initial_river_level": 184.2950858478481,
+    "initial_soil_saturation": 0.15682158126555948,
+    "timeseries_path": "sim_timeseries\\scenario_208.csv"
+  },
+  {
+    "scenario_id": 209,
+    "type": "ramp",
+    "intensity_mm_per_hr": 91.58898626495645,
+    "duration_hours": 3.1043421063914685,
+    "initial_river_level": 185.98266110013597,
+    "initial_soil_saturation": 0.4286213688809252,
+    "timeseries_path": "sim_timeseries\\scenario_209.csv"
+  },
+  {
+    "scenario_id": 210,
+    "type": "step",
+    "intensity_mm_per_hr": 66.45617533701108,
+    "duration_hours": 1.436216040015382,
+    "initial_river_level": 185.0153547591433,
+    "initial_soil_saturation": 0.8508740786730956,
+    "timeseries_path": "sim_timeseries\\scenario_210.csv"
+  },
+  {
+    "scenario_id": 211,
+    "type": "pulse",
+    "intensity_mm_per_hr": 96.15496955784175,
+    "duration_hours": 4.467923631039353,
+    "initial_river_level": 185.08580485885233,
+    "initial_soil_saturation": 0.41223826988791384,
+    "timeseries_path": "sim_timeseries\\scenario_211.csv"
+  },
+  {
+    "scenario_id": 212,
+    "type": "step",
+    "intensity_mm_per_hr": 16.69079482439564,
+    "duration_hours": 2.915927643993453,
+    "initial_river_level": 184.60646901805023,
+    "initial_soil_saturation": 0.6174877464560095,
+    "timeseries_path": "sim_timeseries\\scenario_212.csv"
+  },
+  {
+    "scenario_id": 213,
+    "type": "step",
+    "intensity_mm_per_hr": 110.06709120267523,
+    "duration_hours": 1.293962863065802,
+    "initial_river_level": 183.32316190964318,
+    "initial_soil_saturation": 0.547467681270096,
+    "timeseries_path": "sim_timeseries\\scenario_213.csv"
+  },
+  {
+    "scenario_id": 214,
+    "type": "pulse",
+    "intensity_mm_per_hr": 40.25175995137485,
+    "duration_hours": 3.532306897204062,
+    "initial_river_level": 185.19342573619343,
+    "initial_soil_saturation": 0.29266689898680115,
+    "timeseries_path": "sim_timeseries\\scenario_214.csv"
+  },
+  {
+    "scenario_id": 215,
+    "type": "ramp",
+    "intensity_mm_per_hr": 68.3612521174457,
+    "duration_hours": 2.8148616703018865,
+    "initial_river_level": 185.42170716614126,
+    "initial_soil_saturation": 0.08926061551113779,
+    "timeseries_path": "sim_timeseries\\scenario_215.csv"
+  },
+  {
+    "scenario_id": 216,
+    "type": "step",
+    "intensity_mm_per_hr": 103.80720110251325,
+    "duration_hours": 3.6036666595252216,
+    "initial_river_level": 186.07585092041896,
+    "initial_soil_saturation": 0.6487559249918393,
+    "timeseries_path": "sim_timeseries\\scenario_216.csv"
+  },
+  {
+    "scenario_id": 217,
+    "type": "step",
+    "intensity_mm_per_hr": 59.671040756180965,
+    "duration_hours": 1.9139742974583376,
+    "initial_river_level": 184.3557264753407,
+    "initial_soil_saturation": 0.4081490126167026,
+    "timeseries_path": "sim_timeseries\\scenario_217.csv"
+  },
+  {
+    "scenario_id": 218,
+    "type": "step",
+    "intensity_mm_per_hr": 20.459442320319393,
+    "duration_hours": 2.707056025043832,
+    "initial_river_level": 185.66043145224123,
+    "initial_soil_saturation": 0.3368709210919832,
+    "timeseries_path": "sim_timeseries\\scenario_218.csv"
+  },
+  {
+    "scenario_id": 219,
+    "type": "step",
+    "intensity_mm_per_hr": 111.52835393078229,
+    "duration_hours": 1.268533232546591,
+    "initial_river_level": 186.32708755389942,
+    "initial_soil_saturation": 0.08390709153330966,
+    "timeseries_path": "sim_timeseries\\scenario_219.csv"
+  },
+  {
+    "scenario_id": 220,
+    "type": "step",
+    "intensity_mm_per_hr": 91.26755983375872,
+    "duration_hours": 4.247077141109569,
+    "initial_river_level": 185.2254829424614,
+    "initial_soil_saturation": 0.5278185744655293,
+    "timeseries_path": "sim_timeseries\\scenario_220.csv"
+  },
+  {
+    "scenario_id": 221,
+    "type": "ramp",
+    "intensity_mm_per_hr": 46.261057955782555,
+    "duration_hours": 1.4889251414182372,
+    "initial_river_level": 184.41439231853508,
+    "initial_soil_saturation": 0.5988064680026239,
+    "timeseries_path": "sim_timeseries\\scenario_221.csv"
+  },
+  {
+    "scenario_id": 222,
+    "type": "step",
+    "intensity_mm_per_hr": 105.49013637559715,
+    "duration_hours": 3.8842427149845977,
+    "initial_river_level": 186.8735945012459,
+    "initial_soil_saturation": 0.5403690821022094,
+    "timeseries_path": "sim_timeseries\\scenario_222.csv"
+  },
+  {
+    "scenario_id": 223,
+    "type": "step",
+    "intensity_mm_per_hr": 73.57103702288404,
+    "duration_hours": 1.8509552226880244,
+    "initial_river_level": 185.6269452119526,
+    "initial_soil_saturation": 0.20182038219680903,
+    "timeseries_path": "sim_timeseries\\scenario_223.csv"
+  },
+  {
+    "scenario_id": 224,
+    "type": "ramp",
+    "intensity_mm_per_hr": 102.99107604614795,
+    "duration_hours": 2.4702442024614006,
+    "initial_river_level": 186.0504225277474,
+    "initial_soil_saturation": 0.5166900038983164,
+    "timeseries_path": "sim_timeseries\\scenario_224.csv"
+  },
+  {
+    "scenario_id": 225,
+    "type": "ramp",
+    "intensity_mm_per_hr": 102.9670677461194,
+    "duration_hours": 4.898186408502832,
+    "initial_river_level": 186.2737074381627,
+    "initial_soil_saturation": 0.5522159524819183,
+    "timeseries_path": "sim_timeseries\\scenario_225.csv"
+  },
+  {
+    "scenario_id": 226,
+    "type": "step",
+    "intensity_mm_per_hr": 12.887921459894173,
+    "duration_hours": 4.716337163979746,
+    "initial_river_level": 186.31784315983865,
+    "initial_soil_saturation": 0.2407029526386996,
+    "timeseries_path": "sim_timeseries\\scenario_226.csv"
+  },
+  {
+    "scenario_id": 227,
+    "type": "pulse",
+    "intensity_mm_per_hr": 87.29686501521651,
+    "duration_hours": 2.2359387553196406,
+    "initial_river_level": 184.35929862710904,
+    "initial_soil_saturation": 0.005495210463292821,
+    "timeseries_path": "sim_timeseries\\scenario_227.csv"
+  },
+  {
+    "scenario_id": 228,
+    "type": "step",
+    "intensity_mm_per_hr": 72.29532042375139,
+    "duration_hours": 2.6031373759980623,
+    "initial_river_level": 183.56749861660506,
+    "initial_soil_saturation": 0.5698548113899624,
+    "timeseries_path": "sim_timeseries\\scenario_228.csv"
+  },
+  {
+    "scenario_id": 229,
+    "type": "step",
+    "intensity_mm_per_hr": 92.07229382062773,
+    "duration_hours": 1.8605315201340438,
+    "initial_river_level": 184.679329975058,
+    "initial_soil_saturation": 0.30680638359239953,
+    "timeseries_path": "sim_timeseries\\scenario_229.csv"
+  },
+  {
+    "scenario_id": 230,
+    "type": "step",
+    "intensity_mm_per_hr": 89.37555645169405,
+    "duration_hours": 4.107342479866964,
+    "initial_river_level": 185.2703742264576,
+    "initial_soil_saturation": 0.07646133597946136,
+    "timeseries_path": "sim_timeseries\\scenario_230.csv"
+  },
+  {
+    "scenario_id": 231,
+    "type": "ramp",
+    "intensity_mm_per_hr": 27.315088681786847,
+    "duration_hours": 3.4713527277041223,
+    "initial_river_level": 185.69587484245244,
+    "initial_soil_saturation": 0.24489255919159705,
+    "timeseries_path": "sim_timeseries\\scenario_231.csv"
+  },
+  {
+    "scenario_id": 232,
+    "type": "step",
+    "intensity_mm_per_hr": 63.42278753800959,
+    "duration_hours": 2.7681767467911165,
+    "initial_river_level": 184.09266737745907,
+    "initial_soil_saturation": 0.6794488293015336,
+    "timeseries_path": "sim_timeseries\\scenario_232.csv"
+  },
+  {
+    "scenario_id": 233,
+    "type": "ramp",
+    "intensity_mm_per_hr": 57.29049967376794,
+    "duration_hours": 2.1329858803217974,
+    "initial_river_level": 185.71394501904052,
+    "initial_soil_saturation": 0.43796947802782576,
+    "timeseries_path": "sim_timeseries\\scenario_233.csv"
+  },
+  {
+    "scenario_id": 234,
+    "type": "step",
+    "intensity_mm_per_hr": 14.995909886487027,
+    "duration_hours": 2.581053584350516,
+    "initial_river_level": 185.3972998277778,
+    "initial_soil_saturation": 0.0069183773098945855,
+    "timeseries_path": "sim_timeseries\\scenario_234.csv"
+  },
+  {
+    "scenario_id": 235,
+    "type": "step",
+    "intensity_mm_per_hr": 33.23573771423435,
+    "duration_hours": 1.548939221029308,
+    "initial_river_level": 184.02207801608583,
+    "initial_soil_saturation": 0.295310120344057,
+    "timeseries_path": "sim_timeseries\\scenario_235.csv"
+  },
+  {
+    "scenario_id": 236,
+    "type": "step",
+    "intensity_mm_per_hr": 92.17155357727447,
+    "duration_hours": 1.7027792075033692,
+    "initial_river_level": 184.52082978286094,
+    "initial_soil_saturation": 0.6333041370443973,
+    "timeseries_path": "sim_timeseries\\scenario_236.csv"
+  },
+  {
+    "scenario_id": 237,
+    "type": "step",
+    "intensity_mm_per_hr": 101.66896226618661,
+    "duration_hours": 4.224800746267055,
+    "initial_river_level": 183.28830198636862,
+    "initial_soil_saturation": 0.7755879258203298,
+    "timeseries_path": "sim_timeseries\\scenario_237.csv"
+  },
+  {
+    "scenario_id": 238,
+    "type": "step",
+    "intensity_mm_per_hr": 12.061569024421027,
+    "duration_hours": 4.68464973800965,
+    "initial_river_level": 186.44844005444827,
+    "initial_soil_saturation": 0.518183244663148,
+    "timeseries_path": "sim_timeseries\\scenario_238.csv"
+  },
+  {
+    "scenario_id": 239,
+    "type": "step",
+    "intensity_mm_per_hr": 88.04488577258276,
+    "duration_hours": 2.6707758393739223,
+    "initial_river_level": 183.4606934906552,
+    "initial_soil_saturation": 0.01877090312227393,
+    "timeseries_path": "sim_timeseries\\scenario_239.csv"
+  },
+  {
+    "scenario_id": 240,
+    "type": "step",
+    "intensity_mm_per_hr": 98.14543697414975,
+    "duration_hours": 3.472501053216961,
+    "initial_river_level": 186.32810365228684,
+    "initial_soil_saturation": 0.8277927765672461,
+    "timeseries_path": "sim_timeseries\\scenario_240.csv"
+  },
+  {
+    "scenario_id": 241,
+    "type": "step",
+    "intensity_mm_per_hr": 102.89327957961666,
+    "duration_hours": 1.9732658992909347,
+    "initial_river_level": 185.35548515321165,
+    "initial_soil_saturation": 0.47156628870056844,
+    "timeseries_path": "sim_timeseries\\scenario_241.csv"
+  },
+  {
+    "scenario_id": 242,
+    "type": "step",
+    "intensity_mm_per_hr": 44.13020180194474,
+    "duration_hours": 2.3580531245938556,
+    "initial_river_level": 184.33227448997252,
+    "initial_soil_saturation": 0.15131943724111793,
+    "timeseries_path": "sim_timeseries\\scenario_242.csv"
+  },
+  {
+    "scenario_id": 243,
+    "type": "ramp",
+    "intensity_mm_per_hr": 22.54293038224078,
+    "duration_hours": 3.039808249291888,
+    "initial_river_level": 186.6236909263202,
+    "initial_soil_saturation": 0.31443773892514226,
+    "timeseries_path": "sim_timeseries\\scenario_243.csv"
+  },
+  {
+    "scenario_id": 244,
+    "type": "step",
+    "intensity_mm_per_hr": 100.08434616773371,
+    "duration_hours": 4.260148023000056,
+    "initial_river_level": 183.9450753957869,
+    "initial_soil_saturation": 0.13179979644992496,
+    "timeseries_path": "sim_timeseries\\scenario_244.csv"
+  },
+  {
+    "scenario_id": 245,
+    "type": "ramp",
+    "intensity_mm_per_hr": 76.26388838004824,
+    "duration_hours": 4.040861182187568,
+    "initial_river_level": 185.62203604207497,
+    "initial_soil_saturation": 0.15943151605250624,
+    "timeseries_path": "sim_timeseries\\scenario_245.csv"
+  },
+  {
+    "scenario_id": 246,
+    "type": "pulse",
+    "intensity_mm_per_hr": 64.35287275191274,
+    "duration_hours": 4.017783300987944,
+    "initial_river_level": 186.03950859843098,
+    "initial_soil_saturation": 0.4040147312955567,
+    "timeseries_path": "sim_timeseries\\scenario_246.csv"
+  },
+  {
+    "scenario_id": 247,
+    "type": "ramp",
+    "intensity_mm_per_hr": 72.09409617430792,
+    "duration_hours": 3.5411932762423737,
+    "initial_river_level": 185.49808711776757,
+    "initial_soil_saturation": 0.7778221873482746,
+    "timeseries_path": "sim_timeseries\\scenario_247.csv"
+  },
+  {
+    "scenario_id": 248,
+    "type": "step",
+    "intensity_mm_per_hr": 26.60531415323846,
+    "duration_hours": 1.2731450339830244,
+    "initial_river_level": 184.76883225534513,
+    "initial_soil_saturation": 0.2725383916251116,
+    "timeseries_path": "sim_timeseries\\scenario_248.csv"
+  },
+  {
+    "scenario_id": 249,
+    "type": "step",
+    "intensity_mm_per_hr": 16.178933223438584,
+    "duration_hours": 3.0293475411591126,
+    "initial_river_level": 184.24163140242524,
+    "initial_soil_saturation": 0.406722477330614,
+    "timeseries_path": "sim_timeseries\\scenario_249.csv"
+  },
+  {
+    "scenario_id": 250,
+    "type": "ramp",
+    "intensity_mm_per_hr": 101.48662948294336,
+    "duration_hours": 1.30692400469382,
+    "initial_river_level": 186.45700013570095,
+    "initial_soil_saturation": 0.7697640343104812,
+    "timeseries_path": "sim_timeseries\\scenario_250.csv"
+  },
+  {
+    "scenario_id": 251,
+    "type": "pulse",
+    "intensity_mm_per_hr": 65.77745990673506,
+    "duration_hours": 2.850846635709089,
+    "initial_river_level": 185.2172654853532,
+    "initial_soil_saturation": 0.7126360175388227,
+    "timeseries_path": "sim_timeseries\\scenario_251.csv"
+  },
+  {
+    "scenario_id": 252,
+    "type": "step",
+    "intensity_mm_per_hr": 59.47070740159969,
+    "duration_hours": 4.2392636707918845,
+    "initial_river_level": 185.60734981859443,
+    "initial_soil_saturation": 0.28937408659238556,
+    "timeseries_path": "sim_timeseries\\scenario_252.csv"
+  },
+  {
+    "scenario_id": 253,
+    "type": "step",
+    "intensity_mm_per_hr": 26.59471843652024,
+    "duration_hours": 1.2474948004044029,
+    "initial_river_level": 183.41400750908156,
+    "initial_soil_saturation": 0.8092141505601962,
+    "timeseries_path": "sim_timeseries\\scenario_253.csv"
+  },
+  {
+    "scenario_id": 254,
+    "type": "step",
+    "intensity_mm_per_hr": 88.57471040842088,
+    "duration_hours": 3.0181960060038295,
+    "initial_river_level": 183.69023564574545,
+    "initial_soil_saturation": 0.22296935123845582,
+    "timeseries_path": "sim_timeseries\\scenario_254.csv"
+  },
+  {
+    "scenario_id": 255,
+    "type": "step",
+    "intensity_mm_per_hr": 58.33639709388867,
+    "duration_hours": 3.0909921410621823,
+    "initial_river_level": 183.63498483192618,
+    "initial_soil_saturation": 0.3355667838911944,
+    "timeseries_path": "sim_timeseries\\scenario_255.csv"
+  },
+  {
+    "scenario_id": 256,
+    "type": "ramp",
+    "intensity_mm_per_hr": 54.96463369720524,
+    "duration_hours": 2.353468587365678,
+    "initial_river_level": 185.39154344953195,
+    "initial_soil_saturation": 0.7103042384072983,
+    "timeseries_path": "sim_timeseries\\scenario_256.csv"
+  },
+  {
+    "scenario_id": 257,
+    "type": "ramp",
+    "intensity_mm_per_hr": 17.250303970768922,
+    "duration_hours": 1.3780237900603773,
+    "initial_river_level": 185.71351737936033,
+    "initial_soil_saturation": 0.25573227649030233,
+    "timeseries_path": "sim_timeseries\\scenario_257.csv"
+  },
+  {
+    "scenario_id": 258,
+    "type": "step",
+    "intensity_mm_per_hr": 82.22204950515257,
+    "duration_hours": 4.625370788654709,
+    "initial_river_level": 186.49311864824216,
+    "initial_soil_saturation": 0.30002583245450093,
+    "timeseries_path": "sim_timeseries\\scenario_258.csv"
+  },
+  {
+    "scenario_id": 259,
+    "type": "step",
+    "intensity_mm_per_hr": 25.55712186427496,
+    "duration_hours": 2.399283150143377,
+    "initial_river_level": 186.87078603077097,
+    "initial_soil_saturation": 0.6286319665306929,
+    "timeseries_path": "sim_timeseries\\scenario_259.csv"
+  },
+  {
+    "scenario_id": 260,
+    "type": "ramp",
+    "intensity_mm_per_hr": 75.45453509667323,
+    "duration_hours": 4.752008798263043,
+    "initial_river_level": 184.23832754966384,
+    "initial_soil_saturation": 0.33901137545067017,
+    "timeseries_path": "sim_timeseries\\scenario_260.csv"
+  },
+  {
+    "scenario_id": 261,
+    "type": "ramp",
+    "intensity_mm_per_hr": 99.45032621962811,
+    "duration_hours": 3.68046559997889,
+    "initial_river_level": 186.31583589157785,
+    "initial_soil_saturation": 0.6648972049165345,
+    "timeseries_path": "sim_timeseries\\scenario_261.csv"
+  },
+  {
+    "scenario_id": 262,
+    "type": "step",
+    "intensity_mm_per_hr": 67.90326737075914,
+    "duration_hours": 3.5840992829339515,
+    "initial_river_level": 184.69362546528842,
+    "initial_soil_saturation": 0.32564528671210613,
+    "timeseries_path": "sim_timeseries\\scenario_262.csv"
+  },
+  {
+    "scenario_id": 263,
+    "type": "step",
+    "intensity_mm_per_hr": 29.828921516452912,
+    "duration_hours": 1.8567706448356014,
+    "initial_river_level": 186.7906730701374,
+    "initial_soil_saturation": 0.43764382878545455,
+    "timeseries_path": "sim_timeseries\\scenario_263.csv"
+  },
+  {
+    "scenario_id": 264,
+    "type": "ramp",
+    "intensity_mm_per_hr": 25.132188849478723,
+    "duration_hours": 1.3086603372035053,
+    "initial_river_level": 186.37771355474354,
+    "initial_soil_saturation": 0.09102668730110473,
+    "timeseries_path": "sim_timeseries\\scenario_264.csv"
+  },
+  {
+    "scenario_id": 265,
+    "type": "ramp",
+    "intensity_mm_per_hr": 101.86318092980116,
+    "duration_hours": 4.534728661970247,
+    "initial_river_level": 183.15098996943024,
+    "initial_soil_saturation": 0.3030879347678534,
+    "timeseries_path": "sim_timeseries\\scenario_265.csv"
+  },
+  {
+    "scenario_id": 266,
+    "type": "ramp",
+    "intensity_mm_per_hr": 24.415394557245882,
+    "duration_hours": 2.5068794832900987,
+    "initial_river_level": 183.6489888483538,
+    "initial_soil_saturation": 0.7482105510202129,
+    "timeseries_path": "sim_timeseries\\scenario_266.csv"
+  },
+  {
+    "scenario_id": 267,
+    "type": "ramp",
+    "intensity_mm_per_hr": 98.99480916032311,
+    "duration_hours": 1.6621566629762348,
+    "initial_river_level": 184.7506936205534,
+    "initial_soil_saturation": 0.3697727503468801,
+    "timeseries_path": "sim_timeseries\\scenario_267.csv"
+  },
+  {
+    "scenario_id": 268,
+    "type": "step",
+    "intensity_mm_per_hr": 36.128322159161755,
+    "duration_hours": 2.7767948392211026,
+    "initial_river_level": 184.13971173025342,
+    "initial_soil_saturation": 0.6736828662858927,
+    "timeseries_path": "sim_timeseries\\scenario_268.csv"
+  },
+  {
+    "scenario_id": 269,
+    "type": "ramp",
+    "intensity_mm_per_hr": 68.74122646680873,
+    "duration_hours": 2.2378715862511585,
+    "initial_river_level": 186.23449548436315,
+    "initial_soil_saturation": 0.42211404452902745,
+    "timeseries_path": "sim_timeseries\\scenario_269.csv"
+  },
+  {
+    "scenario_id": 270,
+    "type": "step",
+    "intensity_mm_per_hr": 50.462505404753614,
+    "duration_hours": 4.788520680976491,
+    "initial_river_level": 186.9377591741263,
+    "initial_soil_saturation": 0.41551198059689026,
+    "timeseries_path": "sim_timeseries\\scenario_270.csv"
+  },
+  {
+    "scenario_id": 271,
+    "type": "ramp",
+    "intensity_mm_per_hr": 52.00596776097815,
+    "duration_hours": 3.1098391538459307,
+    "initial_river_level": 186.86507261282378,
+    "initial_soil_saturation": 0.7352021156231161,
+    "timeseries_path": "sim_timeseries\\scenario_271.csv"
+  },
+  {
+    "scenario_id": 272,
+    "type": "step",
+    "intensity_mm_per_hr": 25.223838806377433,
+    "duration_hours": 2.0000128463560283,
+    "initial_river_level": 185.5647161448178,
+    "initial_soil_saturation": 0.7867052505470133,
+    "timeseries_path": "sim_timeseries\\scenario_272.csv"
+  },
+  {
+    "scenario_id": 273,
+    "type": "ramp",
+    "intensity_mm_per_hr": 21.284870492325027,
+    "duration_hours": 4.383569106933754,
+    "initial_river_level": 186.4046641923391,
+    "initial_soil_saturation": 0.2565567126533956,
+    "timeseries_path": "sim_timeseries\\scenario_273.csv"
+  },
+  {
+    "scenario_id": 274,
+    "type": "pulse",
+    "intensity_mm_per_hr": 40.00704295504923,
+    "duration_hours": 4.621224835912965,
+    "initial_river_level": 183.58939462396643,
+    "initial_soil_saturation": 0.39372530417548274,
+    "timeseries_path": "sim_timeseries\\scenario_274.csv"
+  },
+  {
+    "scenario_id": 275,
+    "type": "step",
+    "intensity_mm_per_hr": 34.424180759767864,
+    "duration_hours": 2.8045119608828357,
+    "initial_river_level": 184.3983403125546,
+    "initial_soil_saturation": 0.02400317172264468,
+    "timeseries_path": "sim_timeseries\\scenario_275.csv"
+  },
+  {
+    "scenario_id": 276,
+    "type": "step",
+    "intensity_mm_per_hr": 65.22078261625589,
+    "duration_hours": 1.9431122954537305,
+    "initial_river_level": 186.97810140495318,
+    "initial_soil_saturation": 0.3374214060759908,
+    "timeseries_path": "sim_timeseries\\scenario_276.csv"
+  },
+  {
+    "scenario_id": 277,
+    "type": "step",
+    "intensity_mm_per_hr": 112.39084952249483,
+    "duration_hours": 4.356705150446423,
+    "initial_river_level": 185.59984273717671,
+    "initial_soil_saturation": 0.7122425737339584,
+    "timeseries_path": "sim_timeseries\\scenario_277.csv"
+  },
+  {
+    "scenario_id": 278,
+    "type": "ramp",
+    "intensity_mm_per_hr": 41.5567337044595,
+    "duration_hours": 4.31904633261129,
+    "initial_river_level": 185.78428795430392,
+    "initial_soil_saturation": 0.1249134226363676,
+    "timeseries_path": "sim_timeseries\\scenario_278.csv"
+  },
+  {
+    "scenario_id": 279,
+    "type": "ramp",
+    "intensity_mm_per_hr": 59.34616213804713,
+    "duration_hours": 1.0210047932224717,
+    "initial_river_level": 183.31690308508288,
+    "initial_soil_saturation": 0.23033153559334024,
+    "timeseries_path": "sim_timeseries\\scenario_279.csv"
+  },
+  {
+    "scenario_id": 280,
+    "type": "step",
+    "intensity_mm_per_hr": 70.3684669988219,
+    "duration_hours": 3.908939141299727,
+    "initial_river_level": 185.1110860235469,
+    "initial_soil_saturation": 0.10006817429181457,
+    "timeseries_path": "sim_timeseries\\scenario_280.csv"
+  },
+  {
+    "scenario_id": 281,
+    "type": "step",
+    "intensity_mm_per_hr": 43.1266314044842,
+    "duration_hours": 1.190997786475405,
+    "initial_river_level": 184.67930217501376,
+    "initial_soil_saturation": 0.7145091977754944,
+    "timeseries_path": "sim_timeseries\\scenario_281.csv"
+  },
+  {
+    "scenario_id": 282,
+    "type": "step",
+    "intensity_mm_per_hr": 22.19436848190165,
+    "duration_hours": 4.6205875426479945,
+    "initial_river_level": 185.38695617127578,
+    "initial_soil_saturation": 0.014791816985304984,
+    "timeseries_path": "sim_timeseries\\scenario_282.csv"
+  },
+  {
+    "scenario_id": 283,
+    "type": "step",
+    "intensity_mm_per_hr": 36.613194786309265,
+    "duration_hours": 1.5743073609850402,
+    "initial_river_level": 184.71695557241333,
+    "initial_soil_saturation": 0.5533286244983556,
+    "timeseries_path": "sim_timeseries\\scenario_283.csv"
+  },
+  {
+    "scenario_id": 284,
+    "type": "step",
+    "intensity_mm_per_hr": 55.82243547293938,
+    "duration_hours": 3.6574852069680364,
+    "initial_river_level": 183.34245581994904,
+    "initial_soil_saturation": 0.8771890418569995,
+    "timeseries_path": "sim_timeseries\\scenario_284.csv"
+  },
+  {
+    "scenario_id": 285,
+    "type": "step",
+    "intensity_mm_per_hr": 67.86653898543875,
+    "duration_hours": 3.0293107863191464,
+    "initial_river_level": 186.95332594238587,
+    "initial_soil_saturation": 0.49873675717637594,
+    "timeseries_path": "sim_timeseries\\scenario_285.csv"
+  },
+  {
+    "scenario_id": 286,
+    "type": "step",
+    "intensity_mm_per_hr": 61.714858597433455,
+    "duration_hours": 3.54268316587452,
+    "initial_river_level": 186.92415769020624,
+    "initial_soil_saturation": 0.22828523496229147,
+    "timeseries_path": "sim_timeseries\\scenario_286.csv"
+  },
+  {
+    "scenario_id": 287,
+    "type": "ramp",
+    "intensity_mm_per_hr": 96.73720179074668,
+    "duration_hours": 2.379209972653565,
+    "initial_river_level": 185.93176408580257,
+    "initial_soil_saturation": 0.5654312662280908,
+    "timeseries_path": "sim_timeseries\\scenario_287.csv"
+  },
+  {
+    "scenario_id": 288,
+    "type": "ramp",
+    "intensity_mm_per_hr": 90.87056832935424,
+    "duration_hours": 2.3300744334879395,
+    "initial_river_level": 183.17734275318082,
+    "initial_soil_saturation": 0.4914123706869224,
+    "timeseries_path": "sim_timeseries\\scenario_288.csv"
+  },
+  {
+    "scenario_id": 289,
+    "type": "ramp",
+    "intensity_mm_per_hr": 29.259803975687927,
+    "duration_hours": 4.116570373913126,
+    "initial_river_level": 184.85849159898814,
+    "initial_soil_saturation": 0.6258503267964576,
+    "timeseries_path": "sim_timeseries\\scenario_289.csv"
+  },
+  {
+    "scenario_id": 290,
+    "type": "step",
+    "intensity_mm_per_hr": 99.2647450032367,
+    "duration_hours": 1.2524021481288985,
+    "initial_river_level": 186.1047615988137,
+    "initial_soil_saturation": 0.4119116197026179,
+    "timeseries_path": "sim_timeseries\\scenario_290.csv"
+  },
+  {
+    "scenario_id": 291,
+    "type": "step",
+    "intensity_mm_per_hr": 14.81869032250354,
+    "duration_hours": 1.7978793348607534,
+    "initial_river_level": 183.16762376772152,
+    "initial_soil_saturation": 0.8400338819553576,
+    "timeseries_path": "sim_timeseries\\scenario_291.csv"
+  },
+  {
+    "scenario_id": 292,
+    "type": "step",
+    "intensity_mm_per_hr": 118.80349725257358,
+    "duration_hours": 3.1721227906167435,
+    "initial_river_level": 184.01325506081048,
+    "initial_soil_saturation": 0.6779618269369784,
+    "timeseries_path": "sim_timeseries\\scenario_292.csv"
+  },
+  {
+    "scenario_id": 293,
+    "type": "step",
+    "intensity_mm_per_hr": 49.267159363889974,
+    "duration_hours": 4.1233662679137,
+    "initial_river_level": 186.46319310831223,
+    "initial_soil_saturation": 0.29873221774321007,
+    "timeseries_path": "sim_timeseries\\scenario_293.csv"
+  },
+  {
+    "scenario_id": 294,
+    "type": "step",
+    "intensity_mm_per_hr": 50.48210917461403,
+    "duration_hours": 4.557946068049126,
+    "initial_river_level": 185.97323082207848,
+    "initial_soil_saturation": 0.805173745459548,
+    "timeseries_path": "sim_timeseries\\scenario_294.csv"
+  },
+  {
+    "scenario_id": 295,
+    "type": "step",
+    "intensity_mm_per_hr": 117.109594274684,
+    "duration_hours": 2.9848129061480906,
+    "initial_river_level": 184.9900935699745,
+    "initial_soil_saturation": 0.8318794199642673,
+    "timeseries_path": "sim_timeseries\\scenario_295.csv"
+  },
+  {
+    "scenario_id": 296,
+    "type": "ramp",
+    "intensity_mm_per_hr": 98.12628961419512,
+    "duration_hours": 3.908325297370543,
+    "initial_river_level": 183.31570802422186,
+    "initial_soil_saturation": 0.5422079689472046,
+    "timeseries_path": "sim_timeseries\\scenario_296.csv"
+  },
+  {
+    "scenario_id": 297,
+    "type": "step",
+    "intensity_mm_per_hr": 70.00218370791006,
+    "duration_hours": 2.284845712858376,
+    "initial_river_level": 183.32027564429998,
+    "initial_soil_saturation": 0.594827299312323,
+    "timeseries_path": "sim_timeseries\\scenario_297.csv"
+  },
+  {
+    "scenario_id": 298,
+    "type": "step",
+    "intensity_mm_per_hr": 76.28837905036598,
+    "duration_hours": 2.7044642915321817,
+    "initial_river_level": 185.75905923378195,
+    "initial_soil_saturation": 0.3163922853947929,
+    "timeseries_path": "sim_timeseries\\scenario_298.csv"
+  },
+  {
+    "scenario_id": 299,
+    "type": "pulse",
+    "intensity_mm_per_hr": 105.70408925620313,
+    "duration_hours": 2.4102372412339292,
+    "initial_river_level": 186.9926023910922,
+    "initial_soil_saturation": 0.24709982406737183,
+    "timeseries_path": "sim_timeseries\\scenario_299.csv"
+  },
+  {
+    "scenario_id": 300,
+    "type": "ramp",
+    "intensity_mm_per_hr": 114.26948164633949,
+    "duration_hours": 1.300164659952637,
+    "initial_river_level": 185.55005015153318,
+    "initial_soil_saturation": 0.3269800175858841,
+    "timeseries_path": "sim_timeseries\\scenario_300.csv"
+  },
+  {
+    "scenario_id": 301,
+    "type": "ramp",
+    "intensity_mm_per_hr": 84.73516685961589,
+    "duration_hours": 4.811157585118432,
+    "initial_river_level": 183.5711178734502,
+    "initial_soil_saturation": 0.5468156129887698,
+    "timeseries_path": "sim_timeseries\\scenario_301.csv"
+  },
+  {
+    "scenario_id": 302,
+    "type": "step",
+    "intensity_mm_per_hr": 13.827886237839623,
+    "duration_hours": 1.2689334522484352,
+    "initial_river_level": 186.11406149402745,
+    "initial_soil_saturation": 0.3296956257964337,
+    "timeseries_path": "sim_timeseries\\scenario_302.csv"
+  },
+  {
+    "scenario_id": 303,
+    "type": "step",
+    "intensity_mm_per_hr": 72.39691058965315,
+    "duration_hours": 3.420379315419142,
+    "initial_river_level": 185.71624822765358,
+    "initial_soil_saturation": 0.8539411763390008,
+    "timeseries_path": "sim_timeseries\\scenario_303.csv"
+  },
+  {
+    "scenario_id": 304,
+    "type": "ramp",
+    "intensity_mm_per_hr": 93.93929189784375,
+    "duration_hours": 3.2956871133355827,
+    "initial_river_level": 185.11783952614516,
+    "initial_soil_saturation": 0.35823064135720495,
+    "timeseries_path": "sim_timeseries\\scenario_304.csv"
+  },
+  {
+    "scenario_id": 305,
+    "type": "step",
+    "intensity_mm_per_hr": 37.45728184027377,
+    "duration_hours": 1.4537944503400722,
+    "initial_river_level": 185.94269943791772,
+    "initial_soil_saturation": 0.44913956423082013,
+    "timeseries_path": "sim_timeseries\\scenario_305.csv"
+  },
+  {
+    "scenario_id": 306,
+    "type": "pulse",
+    "intensity_mm_per_hr": 71.78399818356118,
+    "duration_hours": 2.0471067063499833,
+    "initial_river_level": 184.0411590845596,
+    "initial_soil_saturation": 0.40164580116505455,
+    "timeseries_path": "sim_timeseries\\scenario_306.csv"
+  },
+  {
+    "scenario_id": 307,
+    "type": "pulse",
+    "intensity_mm_per_hr": 41.41345654679738,
+    "duration_hours": 4.665915638167526,
+    "initial_river_level": 184.9648007810169,
+    "initial_soil_saturation": 0.11037367971357379,
+    "timeseries_path": "sim_timeseries\\scenario_307.csv"
+  },
+  {
+    "scenario_id": 308,
+    "type": "ramp",
+    "intensity_mm_per_hr": 59.72469537699371,
+    "duration_hours": 4.594716123144922,
+    "initial_river_level": 184.7804447709698,
+    "initial_soil_saturation": 0.07901166699425796,
+    "timeseries_path": "sim_timeseries\\scenario_308.csv"
+  },
+  {
+    "scenario_id": 309,
+    "type": "step",
+    "intensity_mm_per_hr": 103.00733408721695,
+    "duration_hours": 2.2783510883998805,
+    "initial_river_level": 184.38970117895425,
+    "initial_soil_saturation": 0.058445170484464036,
+    "timeseries_path": "sim_timeseries\\scenario_309.csv"
+  },
+  {
+    "scenario_id": 310,
+    "type": "ramp",
+    "intensity_mm_per_hr": 108.04648505892779,
+    "duration_hours": 4.4054482030125035,
+    "initial_river_level": 185.84723641602886,
+    "initial_soil_saturation": 0.83459201105086,
+    "timeseries_path": "sim_timeseries\\scenario_310.csv"
+  },
+  {
+    "scenario_id": 311,
+    "type": "step",
+    "intensity_mm_per_hr": 97.3066022229503,
+    "duration_hours": 3.035022980697203,
+    "initial_river_level": 183.48544982031382,
+    "initial_soil_saturation": 0.1808823340599172,
+    "timeseries_path": "sim_timeseries\\scenario_311.csv"
+  },
+  {
+    "scenario_id": 312,
+    "type": "ramp",
+    "intensity_mm_per_hr": 96.9410366888524,
+    "duration_hours": 1.1051361072330628,
+    "initial_river_level": 185.21608574903837,
+    "initial_soil_saturation": 0.33202004895109866,
+    "timeseries_path": "sim_timeseries\\scenario_312.csv"
+  },
+  {
+    "scenario_id": 313,
+    "type": "pulse",
+    "intensity_mm_per_hr": 70.68116273190702,
+    "duration_hours": 3.4477934504820835,
+    "initial_river_level": 183.34486192660773,
+    "initial_soil_saturation": 0.27836164577561595,
+    "timeseries_path": "sim_timeseries\\scenario_313.csv"
+  },
+  {
+    "scenario_id": 314,
+    "type": "step",
+    "intensity_mm_per_hr": 89.07566258797914,
+    "duration_hours": 3.1027826193212005,
+    "initial_river_level": 186.0766582014988,
+    "initial_soil_saturation": 0.7410054595575516,
+    "timeseries_path": "sim_timeseries\\scenario_314.csv"
+  },
+  {
+    "scenario_id": 315,
+    "type": "step",
+    "intensity_mm_per_hr": 116.96177046651425,
+    "duration_hours": 3.5693543575455253,
+    "initial_river_level": 184.799897982652,
+    "initial_soil_saturation": 0.6120980915846229,
+    "timeseries_path": "sim_timeseries\\scenario_315.csv"
+  },
+  {
+    "scenario_id": 316,
+    "type": "pulse",
+    "intensity_mm_per_hr": 106.5756166815453,
+    "duration_hours": 4.121051715353234,
+    "initial_river_level": 185.55917571746664,
+    "initial_soil_saturation": 0.16376682289692363,
+    "timeseries_path": "sim_timeseries\\scenario_316.csv"
+  },
+  {
+    "scenario_id": 317,
+    "type": "step",
+    "intensity_mm_per_hr": 57.588011513017236,
+    "duration_hours": 4.642849083787549,
+    "initial_river_level": 183.2216514000711,
+    "initial_soil_saturation": 0.11174500857511098,
+    "timeseries_path": "sim_timeseries\\scenario_317.csv"
+  },
+  {
+    "scenario_id": 318,
+    "type": "pulse",
+    "intensity_mm_per_hr": 28.112278787913652,
+    "duration_hours": 2.2906430046182225,
+    "initial_river_level": 185.837328530117,
+    "initial_soil_saturation": 0.31142077410768576,
+    "timeseries_path": "sim_timeseries\\scenario_318.csv"
+  },
+  {
+    "scenario_id": 319,
+    "type": "step",
+    "intensity_mm_per_hr": 108.44185085032369,
+    "duration_hours": 4.383734824623462,
+    "initial_river_level": 184.00242123592798,
+    "initial_soil_saturation": 0.5715513822489713,
+    "timeseries_path": "sim_timeseries\\scenario_319.csv"
+  },
+  {
+    "scenario_id": 320,
+    "type": "step",
+    "intensity_mm_per_hr": 23.768732463959296,
+    "duration_hours": 2.2112984244355043,
+    "initial_river_level": 185.13391211907353,
+    "initial_soil_saturation": 0.45231583026713645,
+    "timeseries_path": "sim_timeseries\\scenario_320.csv"
+  },
+  {
+    "scenario_id": 321,
+    "type": "ramp",
+    "intensity_mm_per_hr": 113.57676866554554,
+    "duration_hours": 1.6167770675182527,
+    "initial_river_level": 185.63493149353502,
+    "initial_soil_saturation": 0.6485694915935457,
+    "timeseries_path": "sim_timeseries\\scenario_321.csv"
+  },
+  {
+    "scenario_id": 322,
+    "type": "step",
+    "intensity_mm_per_hr": 102.67830045247278,
+    "duration_hours": 3.254472137725183,
+    "initial_river_level": 186.30094506930652,
+    "initial_soil_saturation": 0.025536139108989855,
+    "timeseries_path": "sim_timeseries\\scenario_322.csv"
+  },
+  {
+    "scenario_id": 323,
+    "type": "step",
+    "intensity_mm_per_hr": 80.55991072067961,
+    "duration_hours": 3.3070849259095163,
+    "initial_river_level": 185.6045199099424,
+    "initial_soil_saturation": 0.69026310082468,
+    "timeseries_path": "sim_timeseries\\scenario_323.csv"
+  },
+  {
+    "scenario_id": 324,
+    "type": "pulse",
+    "intensity_mm_per_hr": 80.28903114297574,
+    "duration_hours": 2.9921522405444643,
+    "initial_river_level": 185.50865604119232,
+    "initial_soil_saturation": 0.2607044911214452,
+    "timeseries_path": "sim_timeseries\\scenario_324.csv"
+  },
+  {
+    "scenario_id": 325,
+    "type": "step",
+    "intensity_mm_per_hr": 63.12392999929614,
+    "duration_hours": 4.218752616862933,
+    "initial_river_level": 185.7399633647827,
+    "initial_soil_saturation": 0.2676904842867681,
+    "timeseries_path": "sim_timeseries\\scenario_325.csv"
+  },
+  {
+    "scenario_id": 326,
+    "type": "ramp",
+    "intensity_mm_per_hr": 16.59043362281359,
+    "duration_hours": 2.758421999681644,
+    "initial_river_level": 184.93700452042944,
+    "initial_soil_saturation": 0.18362071220705883,
+    "timeseries_path": "sim_timeseries\\scenario_326.csv"
+  },
+  {
+    "scenario_id": 327,
+    "type": "pulse",
+    "intensity_mm_per_hr": 44.384074917162636,
+    "duration_hours": 3.87345154044975,
+    "initial_river_level": 185.9367990192182,
+    "initial_soil_saturation": 0.7746996291788928,
+    "timeseries_path": "sim_timeseries\\scenario_327.csv"
+  },
+  {
+    "scenario_id": 328,
+    "type": "step",
+    "intensity_mm_per_hr": 24.38427667076251,
+    "duration_hours": 2.482160792201165,
+    "initial_river_level": 185.24660486299348,
+    "initial_soil_saturation": 0.2872042977628415,
+    "timeseries_path": "sim_timeseries\\scenario_328.csv"
+  },
+  {
+    "scenario_id": 329,
+    "type": "step",
+    "intensity_mm_per_hr": 39.42188418996007,
+    "duration_hours": 1.9916755301021825,
+    "initial_river_level": 183.38724661024227,
+    "initial_soil_saturation": 0.2611908044729114,
+    "timeseries_path": "sim_timeseries\\scenario_329.csv"
+  },
+  {
+    "scenario_id": 330,
+    "type": "step",
+    "intensity_mm_per_hr": 77.69151885803656,
+    "duration_hours": 1.9930811215247464,
+    "initial_river_level": 186.46123000688286,
+    "initial_soil_saturation": 0.14372969591714488,
+    "timeseries_path": "sim_timeseries\\scenario_330.csv"
+  },
+  {
+    "scenario_id": 331,
+    "type": "step",
+    "intensity_mm_per_hr": 73.54557416829562,
+    "duration_hours": 2.250859683449092,
+    "initial_river_level": 186.05248550055452,
+    "initial_soil_saturation": 0.44843898785391795,
+    "timeseries_path": "sim_timeseries\\scenario_331.csv"
+  },
+  {
+    "scenario_id": 332,
+    "type": "step",
+    "intensity_mm_per_hr": 64.86356792374195,
+    "duration_hours": 2.234161928217717,
+    "initial_river_level": 183.0927051928654,
+    "initial_soil_saturation": 0.8507095236623136,
+    "timeseries_path": "sim_timeseries\\scenario_332.csv"
+  },
+  {
+    "scenario_id": 333,
+    "type": "step",
+    "intensity_mm_per_hr": 116.3355293607723,
+    "duration_hours": 1.8605776901049644,
+    "initial_river_level": 184.41158035542543,
+    "initial_soil_saturation": 0.045486364165102704,
+    "timeseries_path": "sim_timeseries\\scenario_333.csv"
+  },
+  {
+    "scenario_id": 334,
+    "type": "ramp",
+    "intensity_mm_per_hr": 107.05734240050212,
+    "duration_hours": 3.6170401475584684,
+    "initial_river_level": 184.8823474134728,
+    "initial_soil_saturation": 0.48302167436003435,
+    "timeseries_path": "sim_timeseries\\scenario_334.csv"
+  },
+  {
+    "scenario_id": 335,
+    "type": "step",
+    "intensity_mm_per_hr": 57.40205462822946,
+    "duration_hours": 4.529822923674372,
+    "initial_river_level": 185.91003225343758,
+    "initial_soil_saturation": 0.6874710877457906,
+    "timeseries_path": "sim_timeseries\\scenario_335.csv"
+  },
+  {
+    "scenario_id": 336,
+    "type": "step",
+    "intensity_mm_per_hr": 54.063978311623224,
+    "duration_hours": 3.2811265755241172,
+    "initial_river_level": 183.77862120755088,
+    "initial_soil_saturation": 0.49790063395903655,
+    "timeseries_path": "sim_timeseries\\scenario_336.csv"
+  },
+  {
+    "scenario_id": 337,
+    "type": "ramp",
+    "intensity_mm_per_hr": 65.46810820355252,
+    "duration_hours": 4.057616458828958,
+    "initial_river_level": 184.11888271049594,
+    "initial_soil_saturation": 0.8901816305586503,
+    "timeseries_path": "sim_timeseries\\scenario_337.csv"
+  },
+  {
+    "scenario_id": 338,
+    "type": "step",
+    "intensity_mm_per_hr": 23.06921216959485,
+    "duration_hours": 4.900331261655136,
+    "initial_river_level": 184.57561485091443,
+    "initial_soil_saturation": 0.7154075055428513,
+    "timeseries_path": "sim_timeseries\\scenario_338.csv"
+  },
+  {
+    "scenario_id": 339,
+    "type": "step",
+    "intensity_mm_per_hr": 113.28434236509129,
+    "duration_hours": 4.019860689171176,
+    "initial_river_level": 183.7962315262098,
+    "initial_soil_saturation": 0.4582102646026639,
+    "timeseries_path": "sim_timeseries\\scenario_339.csv"
+  },
+  {
+    "scenario_id": 340,
+    "type": "step",
+    "intensity_mm_per_hr": 14.98336877137822,
+    "duration_hours": 1.5481454942700816,
+    "initial_river_level": 184.33216282141106,
+    "initial_soil_saturation": 0.426369735355671,
+    "timeseries_path": "sim_timeseries\\scenario_340.csv"
+  },
+  {
+    "scenario_id": 341,
+    "type": "step",
+    "intensity_mm_per_hr": 76.68865746441845,
+    "duration_hours": 3.0620229285890157,
+    "initial_river_level": 184.3118633905461,
+    "initial_soil_saturation": 0.5517613089582102,
+    "timeseries_path": "sim_timeseries\\scenario_341.csv"
+  },
+  {
+    "scenario_id": 342,
+    "type": "ramp",
+    "intensity_mm_per_hr": 118.96773113172542,
+    "duration_hours": 3.9572774422944166,
+    "initial_river_level": 184.19693737011326,
+    "initial_soil_saturation": 0.30273610693651054,
+    "timeseries_path": "sim_timeseries\\scenario_342.csv"
+  },
+  {
+    "scenario_id": 343,
+    "type": "step",
+    "intensity_mm_per_hr": 68.5573812863464,
+    "duration_hours": 3.8349592257417515,
+    "initial_river_level": 184.19916225894966,
+    "initial_soil_saturation": 0.7341739499194417,
+    "timeseries_path": "sim_timeseries\\scenario_343.csv"
+  },
+  {
+    "scenario_id": 344,
+    "type": "ramp",
+    "intensity_mm_per_hr": 84.11870317203181,
+    "duration_hours": 4.919592124716647,
+    "initial_river_level": 185.33480856739516,
+    "initial_soil_saturation": 0.7170793325371324,
+    "timeseries_path": "sim_timeseries\\scenario_344.csv"
+  },
+  {
+    "scenario_id": 345,
+    "type": "ramp",
+    "intensity_mm_per_hr": 85.68480163230488,
+    "duration_hours": 1.1065886198553327,
+    "initial_river_level": 184.89836085634025,
+    "initial_soil_saturation": 0.8703636265548458,
+    "timeseries_path": "sim_timeseries\\scenario_345.csv"
+  },
+  {
+    "scenario_id": 346,
+    "type": "step",
+    "intensity_mm_per_hr": 95.37782276892793,
+    "duration_hours": 3.3105375834567314,
+    "initial_river_level": 185.88560044918523,
+    "initial_soil_saturation": 0.525170949342876,
+    "timeseries_path": "sim_timeseries\\scenario_346.csv"
+  },
+  {
+    "scenario_id": 347,
+    "type": "ramp",
+    "intensity_mm_per_hr": 79.19277652599,
+    "duration_hours": 3.4789432220043577,
+    "initial_river_level": 186.36466849983304,
+    "initial_soil_saturation": 0.13299813747029865,
+    "timeseries_path": "sim_timeseries\\scenario_347.csv"
+  },
+  {
+    "scenario_id": 348,
+    "type": "step",
+    "intensity_mm_per_hr": 13.47275646763093,
+    "duration_hours": 4.792820683137205,
+    "initial_river_level": 183.4395820853348,
+    "initial_soil_saturation": 0.017043630755951313,
+    "timeseries_path": "sim_timeseries\\scenario_348.csv"
+  },
+  {
+    "scenario_id": 349,
+    "type": "pulse",
+    "intensity_mm_per_hr": 26.657438393127997,
+    "duration_hours": 3.762001043674102,
+    "initial_river_level": 184.64150963729082,
+    "initial_soil_saturation": 0.6974750716263819,
+    "timeseries_path": "sim_timeseries\\scenario_349.csv"
+  },
+  {
+    "scenario_id": 350,
+    "type": "step",
+    "intensity_mm_per_hr": 106.00994798035524,
+    "duration_hours": 3.9433490850747255,
+    "initial_river_level": 183.24912514405773,
+    "initial_soil_saturation": 0.12427423720668919,
+    "timeseries_path": "sim_timeseries\\scenario_350.csv"
+  },
+  {
+    "scenario_id": 351,
+    "type": "step",
+    "intensity_mm_per_hr": 45.755448786866026,
+    "duration_hours": 3.6489071988573962,
+    "initial_river_level": 185.10190860560013,
+    "initial_soil_saturation": 0.28237733886403543,
+    "timeseries_path": "sim_timeseries\\scenario_351.csv"
+  },
+  {
+    "scenario_id": 352,
+    "type": "ramp",
+    "intensity_mm_per_hr": 110.33365770164114,
+    "duration_hours": 2.3693080707273846,
+    "initial_river_level": 184.41714795457926,
+    "initial_soil_saturation": 0.6947908057338666,
+    "timeseries_path": "sim_timeseries\\scenario_352.csv"
+  },
+  {
+    "scenario_id": 353,
+    "type": "step",
+    "intensity_mm_per_hr": 80.76400099994076,
+    "duration_hours": 3.7732532401192835,
+    "initial_river_level": 185.44030632031502,
+    "initial_soil_saturation": 0.17303775222304207,
+    "timeseries_path": "sim_timeseries\\scenario_353.csv"
+  },
+  {
+    "scenario_id": 354,
+    "type": "step",
+    "intensity_mm_per_hr": 71.38953158881446,
+    "duration_hours": 1.8994681519712668,
+    "initial_river_level": 186.8916425103623,
+    "initial_soil_saturation": 0.2678531087492171,
+    "timeseries_path": "sim_timeseries\\scenario_354.csv"
+  },
+  {
+    "scenario_id": 355,
+    "type": "pulse",
+    "intensity_mm_per_hr": 32.80055743401043,
+    "duration_hours": 3.819953038960787,
+    "initial_river_level": 184.26816298007378,
+    "initial_soil_saturation": 0.31392285678117593,
+    "timeseries_path": "sim_timeseries\\scenario_355.csv"
+  },
+  {
+    "scenario_id": 356,
+    "type": "step",
+    "intensity_mm_per_hr": 97.4945891602567,
+    "duration_hours": 2.0938301470216922,
+    "initial_river_level": 183.48749642293086,
+    "initial_soil_saturation": 0.6089600212042912,
+    "timeseries_path": "sim_timeseries\\scenario_356.csv"
+  },
+  {
+    "scenario_id": 357,
+    "type": "step",
+    "intensity_mm_per_hr": 117.81765910534985,
+    "duration_hours": 4.27350984052225,
+    "initial_river_level": 186.81843545356585,
+    "initial_soil_saturation": 0.7241542505609133,
+    "timeseries_path": "sim_timeseries\\scenario_357.csv"
+  },
+  {
+    "scenario_id": 358,
+    "type": "step",
+    "intensity_mm_per_hr": 41.639337577555395,
+    "duration_hours": 3.8565651499935814,
+    "initial_river_level": 184.38545405638246,
+    "initial_soil_saturation": 0.3981385006783519,
+    "timeseries_path": "sim_timeseries\\scenario_358.csv"
+  },
+  {
+    "scenario_id": 359,
+    "type": "ramp",
+    "intensity_mm_per_hr": 62.69871893181315,
+    "duration_hours": 1.808272028802386,
+    "initial_river_level": 185.1543116948346,
+    "initial_soil_saturation": 0.8397215404049769,
+    "timeseries_path": "sim_timeseries\\scenario_359.csv"
+  },
+  {
+    "scenario_id": 360,
+    "type": "ramp",
+    "intensity_mm_per_hr": 25.100025028101523,
+    "duration_hours": 3.462708137657969,
+    "initial_river_level": 185.34732199428325,
+    "initial_soil_saturation": 0.21821223456925812,
+    "timeseries_path": "sim_timeseries\\scenario_360.csv"
+  },
+  {
+    "scenario_id": 361,
+    "type": "ramp",
+    "intensity_mm_per_hr": 68.4145638706079,
+    "duration_hours": 3.5517782936345506,
+    "initial_river_level": 183.20996442735785,
+    "initial_soil_saturation": 0.37197122944343275,
+    "timeseries_path": "sim_timeseries\\scenario_361.csv"
+  },
+  {
+    "scenario_id": 362,
+    "type": "pulse",
+    "intensity_mm_per_hr": 21.05993952550827,
+    "duration_hours": 4.0830642323931166,
+    "initial_river_level": 183.0207257856285,
+    "initial_soil_saturation": 0.495317309201655,
+    "timeseries_path": "sim_timeseries\\scenario_362.csv"
+  },
+  {
+    "scenario_id": 363,
+    "type": "step",
+    "intensity_mm_per_hr": 54.75981967015718,
+    "duration_hours": 4.740128394384606,
+    "initial_river_level": 186.5135984860569,
+    "initial_soil_saturation": 0.42970366839680685,
+    "timeseries_path": "sim_timeseries\\scenario_363.csv"
+  },
+  {
+    "scenario_id": 364,
+    "type": "step",
+    "intensity_mm_per_hr": 116.03054427800294,
+    "duration_hours": 2.2846708084766667,
+    "initial_river_level": 185.58359167156107,
+    "initial_soil_saturation": 0.8171432628620602,
+    "timeseries_path": "sim_timeseries\\scenario_364.csv"
+  },
+  {
+    "scenario_id": 365,
+    "type": "pulse",
+    "intensity_mm_per_hr": 73.15466884929106,
+    "duration_hours": 3.1406091075744187,
+    "initial_river_level": 185.8924707129697,
+    "initial_soil_saturation": 0.8430024417755635,
+    "timeseries_path": "sim_timeseries\\scenario_365.csv"
+  },
+  {
+    "scenario_id": 366,
+    "type": "pulse",
+    "intensity_mm_per_hr": 29.25712530290594,
+    "duration_hours": 4.528979892659333,
+    "initial_river_level": 183.70315483015546,
+    "initial_soil_saturation": 0.8276713306658406,
+    "timeseries_path": "sim_timeseries\\scenario_366.csv"
+  },
+  {
+    "scenario_id": 367,
+    "type": "pulse",
+    "intensity_mm_per_hr": 53.66940317061296,
+    "duration_hours": 2.981535589287031,
+    "initial_river_level": 186.74643497911106,
+    "initial_soil_saturation": 0.8659182420750082,
+    "timeseries_path": "sim_timeseries\\scenario_367.csv"
+  },
+  {
+    "scenario_id": 368,
+    "type": "pulse",
+    "intensity_mm_per_hr": 106.44174847097158,
+    "duration_hours": 1.0370686739203991,
+    "initial_river_level": 185.271847474658,
+    "initial_soil_saturation": 0.09657062169618419,
+    "timeseries_path": "sim_timeseries\\scenario_368.csv"
+  },
+  {
+    "scenario_id": 369,
+    "type": "pulse",
+    "intensity_mm_per_hr": 41.301781758505086,
+    "duration_hours": 4.956397880354894,
+    "initial_river_level": 185.1732019342279,
+    "initial_soil_saturation": 0.44452117830763727,
+    "timeseries_path": "sim_timeseries\\scenario_369.csv"
+  },
+  {
+    "scenario_id": 370,
+    "type": "step",
+    "intensity_mm_per_hr": 103.61657124357963,
+    "duration_hours": 2.8720830760251603,
+    "initial_river_level": 183.77124559309524,
+    "initial_soil_saturation": 0.10138208491813903,
+    "timeseries_path": "sim_timeseries\\scenario_370.csv"
+  },
+  {
+    "scenario_id": 371,
+    "type": "ramp",
+    "intensity_mm_per_hr": 60.48059181355973,
+    "duration_hours": 2.0290595209180764,
+    "initial_river_level": 183.74479627651226,
+    "initial_soil_saturation": 0.6629561059430313,
+    "timeseries_path": "sim_timeseries\\scenario_371.csv"
+  },
+  {
+    "scenario_id": 372,
+    "type": "pulse",
+    "intensity_mm_per_hr": 72.45593446630332,
+    "duration_hours": 4.029131001030245,
+    "initial_river_level": 183.70197965535385,
+    "initial_soil_saturation": 0.770531853846112,
+    "timeseries_path": "sim_timeseries\\scenario_372.csv"
+  },
+  {
+    "scenario_id": 373,
+    "type": "step",
+    "intensity_mm_per_hr": 100.96888078039406,
+    "duration_hours": 3.0611226358391836,
+    "initial_river_level": 183.34695107939342,
+    "initial_soil_saturation": 0.6023302680689588,
+    "timeseries_path": "sim_timeseries\\scenario_373.csv"
+  },
+  {
+    "scenario_id": 374,
+    "type": "step",
+    "intensity_mm_per_hr": 25.46730631977283,
+    "duration_hours": 2.294406680340331,
+    "initial_river_level": 183.99218833466858,
+    "initial_soil_saturation": 0.23470674935889949,
+    "timeseries_path": "sim_timeseries\\scenario_374.csv"
+  },
+  {
+    "scenario_id": 375,
+    "type": "step",
+    "intensity_mm_per_hr": 92.91323169596028,
+    "duration_hours": 4.816139290619651,
+    "initial_river_level": 184.20778335876645,
+    "initial_soil_saturation": 0.6505942755608977,
+    "timeseries_path": "sim_timeseries\\scenario_375.csv"
+  },
+  {
+    "scenario_id": 376,
+    "type": "step",
+    "intensity_mm_per_hr": 81.90517037772186,
+    "duration_hours": 3.7710743616909554,
+    "initial_river_level": 183.24849732720213,
+    "initial_soil_saturation": 0.10640236302357532,
+    "timeseries_path": "sim_timeseries\\scenario_376.csv"
+  },
+  {
+    "scenario_id": 377,
+    "type": "step",
+    "intensity_mm_per_hr": 54.5958274265237,
+    "duration_hours": 3.0100818849535584,
+    "initial_river_level": 186.580473479265,
+    "initial_soil_saturation": 0.6332013315920304,
+    "timeseries_path": "sim_timeseries\\scenario_377.csv"
+  },
+  {
+    "scenario_id": 378,
+    "type": "step",
+    "intensity_mm_per_hr": 22.915732042925395,
+    "duration_hours": 4.664521543402541,
+    "initial_river_level": 184.180150400625,
+    "initial_soil_saturation": 0.5531629033294642,
+    "timeseries_path": "sim_timeseries\\scenario_378.csv"
+  },
+  {
+    "scenario_id": 379,
+    "type": "step",
+    "intensity_mm_per_hr": 24.692566041648455,
+    "duration_hours": 1.6127422587567168,
+    "initial_river_level": 185.99093934860343,
+    "initial_soil_saturation": 0.5451650532801624,
+    "timeseries_path": "sim_timeseries\\scenario_379.csv"
+  },
+  {
+    "scenario_id": 380,
+    "type": "step",
+    "intensity_mm_per_hr": 70.41579597002013,
+    "duration_hours": 2.883312307517246,
+    "initial_river_level": 185.1500707507728,
+    "initial_soil_saturation": 0.5976849954056974,
+    "timeseries_path": "sim_timeseries\\scenario_380.csv"
+  },
+  {
+    "scenario_id": 381,
+    "type": "step",
+    "intensity_mm_per_hr": 37.22119722394355,
+    "duration_hours": 4.018958198899462,
+    "initial_river_level": 186.49254023395093,
+    "initial_soil_saturation": 0.07368327582594739,
+    "timeseries_path": "sim_timeseries\\scenario_381.csv"
+  },
+  {
+    "scenario_id": 382,
+    "type": "step",
+    "intensity_mm_per_hr": 87.41427376714599,
+    "duration_hours": 1.3124108885897607,
+    "initial_river_level": 185.2566748890939,
+    "initial_soil_saturation": 0.05558224280101542,
+    "timeseries_path": "sim_timeseries\\scenario_382.csv"
+  },
+  {
+    "scenario_id": 383,
+    "type": "step",
+    "intensity_mm_per_hr": 65.60357617018553,
+    "duration_hours": 3.2908066969114587,
+    "initial_river_level": 183.59940952552967,
+    "initial_soil_saturation": 0.29530587396798585,
+    "timeseries_path": "sim_timeseries\\scenario_383.csv"
+  },
+  {
+    "scenario_id": 384,
+    "type": "step",
+    "intensity_mm_per_hr": 22.786402440313065,
+    "duration_hours": 1.8216059421574462,
+    "initial_river_level": 185.33259071376406,
+    "initial_soil_saturation": 0.08184748000651906,
+    "timeseries_path": "sim_timeseries\\scenario_384.csv"
+  },
+  {
+    "scenario_id": 385,
+    "type": "step",
+    "intensity_mm_per_hr": 98.95612914949609,
+    "duration_hours": 2.813729200719128,
+    "initial_river_level": 185.05299137280656,
+    "initial_soil_saturation": 0.41111862814068845,
+    "timeseries_path": "sim_timeseries\\scenario_385.csv"
+  },
+  {
+    "scenario_id": 386,
+    "type": "ramp",
+    "intensity_mm_per_hr": 60.86161363128161,
+    "duration_hours": 4.22766141021757,
+    "initial_river_level": 185.8931203193,
+    "initial_soil_saturation": 0.35635383895793177,
+    "timeseries_path": "sim_timeseries\\scenario_386.csv"
+  },
+  {
+    "scenario_id": 387,
+    "type": "step",
+    "intensity_mm_per_hr": 92.03849311149972,
+    "duration_hours": 3.3132450602361416,
+    "initial_river_level": 183.18115921091132,
+    "initial_soil_saturation": 0.3100759799059211,
+    "timeseries_path": "sim_timeseries\\scenario_387.csv"
+  },
+  {
+    "scenario_id": 388,
+    "type": "step",
+    "intensity_mm_per_hr": 119.35360265246122,
+    "duration_hours": 4.738331195539786,
+    "initial_river_level": 183.27607658464126,
+    "initial_soil_saturation": 0.8403980063264376,
+    "timeseries_path": "sim_timeseries\\scenario_388.csv"
+  },
+  {
+    "scenario_id": 389,
+    "type": "ramp",
+    "intensity_mm_per_hr": 54.97536294011731,
+    "duration_hours": 4.07588825033393,
+    "initial_river_level": 186.06331073169486,
+    "initial_soil_saturation": 0.8804999564316909,
+    "timeseries_path": "sim_timeseries\\scenario_389.csv"
+  },
+  {
+    "scenario_id": 390,
+    "type": "pulse",
+    "intensity_mm_per_hr": 56.239813277056065,
+    "duration_hours": 4.971426394323515,
+    "initial_river_level": 184.52991847540548,
+    "initial_soil_saturation": 0.7826582567796376,
+    "timeseries_path": "sim_timeseries\\scenario_390.csv"
+  },
+  {
+    "scenario_id": 391,
+    "type": "ramp",
+    "intensity_mm_per_hr": 51.321008718218636,
+    "duration_hours": 3.7309214164061655,
+    "initial_river_level": 185.64717015250187,
+    "initial_soil_saturation": 0.4853702375269742,
+    "timeseries_path": "sim_timeseries\\scenario_391.csv"
+  },
+  {
+    "scenario_id": 392,
+    "type": "ramp",
+    "intensity_mm_per_hr": 48.25468758530653,
+    "duration_hours": 1.7138945160164467,
+    "initial_river_level": 185.149033945592,
+    "initial_soil_saturation": 0.47595828558960834,
+    "timeseries_path": "sim_timeseries\\scenario_392.csv"
+  },
+  {
+    "scenario_id": 393,
+    "type": "ramp",
+    "intensity_mm_per_hr": 34.495923756289315,
+    "duration_hours": 1.0138931797796311,
+    "initial_river_level": 183.09094130928787,
+    "initial_soil_saturation": 0.2685266898326837,
+    "timeseries_path": "sim_timeseries\\scenario_393.csv"
+  },
+  {
+    "scenario_id": 394,
+    "type": "step",
+    "intensity_mm_per_hr": 69.88898729275229,
+    "duration_hours": 3.127734433987035,
+    "initial_river_level": 186.29344174950313,
+    "initial_soil_saturation": 0.22276083465339802,
+    "timeseries_path": "sim_timeseries\\scenario_394.csv"
+  },
+  {
+    "scenario_id": 395,
+    "type": "ramp",
+    "intensity_mm_per_hr": 40.321470057464005,
+    "duration_hours": 4.749641444540267,
+    "initial_river_level": 185.90009578363566,
+    "initial_soil_saturation": 0.10156017488982959,
+    "timeseries_path": "sim_timeseries\\scenario_395.csv"
+  },
+  {
+    "scenario_id": 396,
+    "type": "step",
+    "intensity_mm_per_hr": 56.11646583409273,
+    "duration_hours": 4.064213870055614,
+    "initial_river_level": 186.5350264873815,
+    "initial_soil_saturation": 0.014081216727194612,
+    "timeseries_path": "sim_timeseries\\scenario_396.csv"
+  },
+  {
+    "scenario_id": 397,
+    "type": "step",
+    "intensity_mm_per_hr": 21.098638440175773,
+    "duration_hours": 1.1343051030171232,
+    "initial_river_level": 185.39113958692622,
+    "initial_soil_saturation": 0.6329576401784358,
+    "timeseries_path": "sim_timeseries\\scenario_397.csv"
+  },
+  {
+    "scenario_id": 398,
+    "type": "pulse",
+    "intensity_mm_per_hr": 91.45951863278478,
+    "duration_hours": 2.6090614032436252,
+    "initial_river_level": 183.93735711395024,
+    "initial_soil_saturation": 0.19554228915979807,
+    "timeseries_path": "sim_timeseries\\scenario_398.csv"
+  },
+  {
+    "scenario_id": 399,
+    "type": "ramp",
+    "intensity_mm_per_hr": 16.208843852690702,
+    "duration_hours": 3.015583395763738,
+    "initial_river_level": 184.15705380541567,
+    "initial_soil_saturation": 0.7342076310869852,
+    "timeseries_path": "sim_timeseries\\scenario_399.csv"
+  },
+  {
+    "scenario_id": 400,
+    "type": "step",
+    "intensity_mm_per_hr": 45.07940660061112,
+    "duration_hours": 3.3916706971090496,
+    "initial_river_level": 185.69012760574765,
+    "initial_soil_saturation": 0.28859860385368485,
+    "timeseries_path": "sim_timeseries\\scenario_400.csv"
+  },
+  {
+    "scenario_id": 401,
+    "type": "step",
+    "intensity_mm_per_hr": 25.758647757966152,
+    "duration_hours": 3.6408496952429728,
+    "initial_river_level": 183.88417096178412,
+    "initial_soil_saturation": 0.27045085838167765,
+    "timeseries_path": "sim_timeseries\\scenario_401.csv"
+  },
+  {
+    "scenario_id": 402,
+    "type": "step",
+    "intensity_mm_per_hr": 114.33722805293935,
+    "duration_hours": 4.518855563855531,
+    "initial_river_level": 186.64631066248216,
+    "initial_soil_saturation": 0.563393823883497,
+    "timeseries_path": "sim_timeseries\\scenario_402.csv"
+  },
+  {
+    "scenario_id": 403,
+    "type": "ramp",
+    "intensity_mm_per_hr": 64.5182866242323,
+    "duration_hours": 4.889160941374744,
+    "initial_river_level": 186.76634563932765,
+    "initial_soil_saturation": 0.6042082722711501,
+    "timeseries_path": "sim_timeseries\\scenario_403.csv"
+  },
+  {
+    "scenario_id": 404,
+    "type": "ramp",
+    "intensity_mm_per_hr": 45.060790304794345,
+    "duration_hours": 2.6652985336857786,
+    "initial_river_level": 183.59687043130066,
+    "initial_soil_saturation": 0.33881416965641886,
+    "timeseries_path": "sim_timeseries\\scenario_404.csv"
+  },
+  {
+    "scenario_id": 405,
+    "type": "ramp",
+    "intensity_mm_per_hr": 62.087070245344194,
+    "duration_hours": 4.397363729040162,
+    "initial_river_level": 184.2029456751806,
+    "initial_soil_saturation": 0.636819117739175,
+    "timeseries_path": "sim_timeseries\\scenario_405.csv"
+  },
+  {
+    "scenario_id": 406,
+    "type": "step",
+    "intensity_mm_per_hr": 110.6215291197496,
+    "duration_hours": 3.2495437983476365,
+    "initial_river_level": 186.8711447541865,
+    "initial_soil_saturation": 0.5015580823793458,
+    "timeseries_path": "sim_timeseries\\scenario_406.csv"
+  },
+  {
+    "scenario_id": 407,
+    "type": "ramp",
+    "intensity_mm_per_hr": 36.71443676985443,
+    "duration_hours": 1.8133469322402176,
+    "initial_river_level": 185.58682340619177,
+    "initial_soil_saturation": 0.8300034940601001,
+    "timeseries_path": "sim_timeseries\\scenario_407.csv"
+  },
+  {
+    "scenario_id": 408,
+    "type": "ramp",
+    "intensity_mm_per_hr": 20.171039617955003,
+    "duration_hours": 3.8983388492288076,
+    "initial_river_level": 183.76192647372295,
+    "initial_soil_saturation": 0.24161542906948308,
+    "timeseries_path": "sim_timeseries\\scenario_408.csv"
+  },
+  {
+    "scenario_id": 409,
+    "type": "ramp",
+    "intensity_mm_per_hr": 76.32142494879835,
+    "duration_hours": 4.494481833958158,
+    "initial_river_level": 183.752653175731,
+    "initial_soil_saturation": 0.685526775783489,
+    "timeseries_path": "sim_timeseries\\scenario_409.csv"
+  },
+  {
+    "scenario_id": 410,
+    "type": "pulse",
+    "intensity_mm_per_hr": 71.473552389978,
+    "duration_hours": 2.917576825883659,
+    "initial_river_level": 186.47789540609816,
+    "initial_soil_saturation": 0.29966787973693915,
+    "timeseries_path": "sim_timeseries\\scenario_410.csv"
+  },
+  {
+    "scenario_id": 411,
+    "type": "pulse",
+    "intensity_mm_per_hr": 11.686707685134213,
+    "duration_hours": 4.748639052808991,
+    "initial_river_level": 186.84831022445783,
+    "initial_soil_saturation": 0.10558457949900105,
+    "timeseries_path": "sim_timeseries\\scenario_411.csv"
+  },
+  {
+    "scenario_id": 412,
+    "type": "pulse",
+    "intensity_mm_per_hr": 62.68129639766024,
+    "duration_hours": 1.970372727382966,
+    "initial_river_level": 185.41760613631513,
+    "initial_soil_saturation": 0.18406182868010432,
+    "timeseries_path": "sim_timeseries\\scenario_412.csv"
+  },
+  {
+    "scenario_id": 413,
+    "type": "step",
+    "intensity_mm_per_hr": 70.7287221802596,
+    "duration_hours": 4.102055528255081,
+    "initial_river_level": 184.5226469774917,
+    "initial_soil_saturation": 0.48028511467463675,
+    "timeseries_path": "sim_timeseries\\scenario_413.csv"
+  },
+  {
+    "scenario_id": 414,
+    "type": "pulse",
+    "intensity_mm_per_hr": 38.77177901238879,
+    "duration_hours": 3.051266160095094,
+    "initial_river_level": 184.98910917240394,
+    "initial_soil_saturation": 0.08874740840893204,
+    "timeseries_path": "sim_timeseries\\scenario_414.csv"
+  },
+  {
+    "scenario_id": 415,
+    "type": "step",
+    "intensity_mm_per_hr": 61.64394642248143,
+    "duration_hours": 4.35892472625474,
+    "initial_river_level": 186.65732199558997,
+    "initial_soil_saturation": 0.3336344292881326,
+    "timeseries_path": "sim_timeseries\\scenario_415.csv"
+  },
+  {
+    "scenario_id": 416,
+    "type": "pulse",
+    "intensity_mm_per_hr": 71.87772002107897,
+    "duration_hours": 1.885096393264901,
+    "initial_river_level": 183.5836908524102,
+    "initial_soil_saturation": 0.2346966989187926,
+    "timeseries_path": "sim_timeseries\\scenario_416.csv"
+  },
+  {
+    "scenario_id": 417,
+    "type": "step",
+    "intensity_mm_per_hr": 73.70572186411405,
+    "duration_hours": 2.6703122942206945,
+    "initial_river_level": 183.60964564073657,
+    "initial_soil_saturation": 0.2968787573800739,
+    "timeseries_path": "sim_timeseries\\scenario_417.csv"
+  },
+  {
+    "scenario_id": 418,
+    "type": "step",
+    "intensity_mm_per_hr": 101.66989868156837,
+    "duration_hours": 2.99720592947729,
+    "initial_river_level": 185.61843186448408,
+    "initial_soil_saturation": 0.6163619511113155,
+    "timeseries_path": "sim_timeseries\\scenario_418.csv"
+  },
+  {
+    "scenario_id": 419,
+    "type": "step",
+    "intensity_mm_per_hr": 100.3751133661592,
+    "duration_hours": 4.866033069001375,
+    "initial_river_level": 185.56677781759484,
+    "initial_soil_saturation": 0.44153602432270417,
+    "timeseries_path": "sim_timeseries\\scenario_419.csv"
+  },
+  {
+    "scenario_id": 420,
+    "type": "pulse",
+    "intensity_mm_per_hr": 97.44730657889976,
+    "duration_hours": 1.6770628434407269,
+    "initial_river_level": 185.88125412304836,
+    "initial_soil_saturation": 0.43948468912871913,
+    "timeseries_path": "sim_timeseries\\scenario_420.csv"
+  },
+  {
+    "scenario_id": 421,
+    "type": "ramp",
+    "intensity_mm_per_hr": 69.63505408864907,
+    "duration_hours": 3.567237852729466,
+    "initial_river_level": 183.23492820632293,
+    "initial_soil_saturation": 0.030441381448221495,
+    "timeseries_path": "sim_timeseries\\scenario_421.csv"
+  },
+  {
+    "scenario_id": 422,
+    "type": "ramp",
+    "intensity_mm_per_hr": 113.9706922320988,
+    "duration_hours": 3.6728621735726112,
+    "initial_river_level": 186.05735537428808,
+    "initial_soil_saturation": 0.37115300017403346,
+    "timeseries_path": "sim_timeseries\\scenario_422.csv"
+  },
+  {
+    "scenario_id": 423,
+    "type": "step",
+    "intensity_mm_per_hr": 35.457673128519005,
+    "duration_hours": 3.8286782548138394,
+    "initial_river_level": 183.03656584676264,
+    "initial_soil_saturation": 0.4551596277237586,
+    "timeseries_path": "sim_timeseries\\scenario_423.csv"
+  },
+  {
+    "scenario_id": 424,
+    "type": "step",
+    "intensity_mm_per_hr": 77.96187594644833,
+    "duration_hours": 3.667018918213359,
+    "initial_river_level": 185.46607744433734,
+    "initial_soil_saturation": 0.4348837382596426,
+    "timeseries_path": "sim_timeseries\\scenario_424.csv"
+  },
+  {
+    "scenario_id": 425,
+    "type": "step",
+    "intensity_mm_per_hr": 10.727359269137478,
+    "duration_hours": 3.2065742436450275,
+    "initial_river_level": 183.04740387251158,
+    "initial_soil_saturation": 0.47647588215748554,
+    "timeseries_path": "sim_timeseries\\scenario_425.csv"
+  },
+  {
+    "scenario_id": 426,
+    "type": "ramp",
+    "intensity_mm_per_hr": 117.5227283055763,
+    "duration_hours": 1.0685703904097088,
+    "initial_river_level": 186.25262888365563,
+    "initial_soil_saturation": 0.6066296569072893,
+    "timeseries_path": "sim_timeseries\\scenario_426.csv"
+  },
+  {
+    "scenario_id": 427,
+    "type": "step",
+    "intensity_mm_per_hr": 110.07507025986428,
+    "duration_hours": 1.4280657147779716,
+    "initial_river_level": 183.38525556100564,
+    "initial_soil_saturation": 0.13400773716622547,
+    "timeseries_path": "sim_timeseries\\scenario_427.csv"
+  },
+  {
+    "scenario_id": 428,
+    "type": "step",
+    "intensity_mm_per_hr": 67.91015839402378,
+    "duration_hours": 4.260857562853131,
+    "initial_river_level": 184.06929894670654,
+    "initial_soil_saturation": 0.3572067802482643,
+    "timeseries_path": "sim_timeseries\\scenario_428.csv"
+  },
+  {
+    "scenario_id": 429,
+    "type": "ramp",
+    "intensity_mm_per_hr": 54.66301508612746,
+    "duration_hours": 3.2600087297918763,
+    "initial_river_level": 186.9609321265589,
+    "initial_soil_saturation": 0.20327152736467996,
+    "timeseries_path": "sim_timeseries\\scenario_429.csv"
+  },
+  {
+    "scenario_id": 430,
+    "type": "step",
+    "intensity_mm_per_hr": 103.26538122346892,
+    "duration_hours": 3.6149428782366124,
+    "initial_river_level": 186.43287663608476,
+    "initial_soil_saturation": 0.6836272651591603,
+    "timeseries_path": "sim_timeseries\\scenario_430.csv"
+  },
+  {
+    "scenario_id": 431,
+    "type": "step",
+    "intensity_mm_per_hr": 51.71904244637975,
+    "duration_hours": 3.210805758118781,
+    "initial_river_level": 183.22445975651587,
+    "initial_soil_saturation": 0.008505155388717557,
+    "timeseries_path": "sim_timeseries\\scenario_431.csv"
+  },
+  {
+    "scenario_id": 432,
+    "type": "pulse",
+    "intensity_mm_per_hr": 64.98442324240712,
+    "duration_hours": 2.7356386078866493,
+    "initial_river_level": 186.13750524316043,
+    "initial_soil_saturation": 0.5092709651559315,
+    "timeseries_path": "sim_timeseries\\scenario_432.csv"
+  },
+  {
+    "scenario_id": 433,
+    "type": "pulse",
+    "intensity_mm_per_hr": 20.489801901780307,
+    "duration_hours": 3.112636742566592,
+    "initial_river_level": 183.1702070304682,
+    "initial_soil_saturation": 0.19027535029609247,
+    "timeseries_path": "sim_timeseries\\scenario_433.csv"
+  },
+  {
+    "scenario_id": 434,
+    "type": "pulse",
+    "intensity_mm_per_hr": 107.6309737737943,
+    "duration_hours": 2.902001150581093,
+    "initial_river_level": 183.18624788296697,
+    "initial_soil_saturation": 0.06691325393308598,
+    "timeseries_path": "sim_timeseries\\scenario_434.csv"
+  },
+  {
+    "scenario_id": 435,
+    "type": "step",
+    "intensity_mm_per_hr": 108.92428159515094,
+    "duration_hours": 3.254039456191934,
+    "initial_river_level": 183.1316071206139,
+    "initial_soil_saturation": 0.8358897251291934,
+    "timeseries_path": "sim_timeseries\\scenario_435.csv"
+  },
+  {
+    "scenario_id": 436,
+    "type": "step",
+    "intensity_mm_per_hr": 115.76161088636064,
+    "duration_hours": 3.3481444163379535,
+    "initial_river_level": 186.00901787938747,
+    "initial_soil_saturation": 0.6414402599544238,
+    "timeseries_path": "sim_timeseries\\scenario_436.csv"
+  },
+  {
+    "scenario_id": 437,
+    "type": "step",
+    "intensity_mm_per_hr": 18.463124058548047,
+    "duration_hours": 1.6498010028588235,
+    "initial_river_level": 183.96188877721715,
+    "initial_soil_saturation": 0.7511855040825768,
+    "timeseries_path": "sim_timeseries\\scenario_437.csv"
+  },
+  {
+    "scenario_id": 438,
+    "type": "pulse",
+    "intensity_mm_per_hr": 108.61783437029918,
+    "duration_hours": 2.3269193584873142,
+    "initial_river_level": 186.02243705808357,
+    "initial_soil_saturation": 0.12595553481167757,
+    "timeseries_path": "sim_timeseries\\scenario_438.csv"
+  },
+  {
+    "scenario_id": 439,
+    "type": "step",
+    "intensity_mm_per_hr": 89.65799271037463,
+    "duration_hours": 3.0031714065509005,
+    "initial_river_level": 186.897293309744,
+    "initial_soil_saturation": 0.04832678875265424,
+    "timeseries_path": "sim_timeseries\\scenario_439.csv"
+  },
+  {
+    "scenario_id": 440,
+    "type": "step",
+    "intensity_mm_per_hr": 102.25421233744925,
+    "duration_hours": 2.362370985900424,
+    "initial_river_level": 186.07602261346176,
+    "initial_soil_saturation": 0.8593725572231993,
+    "timeseries_path": "sim_timeseries\\scenario_440.csv"
+  },
+  {
+    "scenario_id": 441,
+    "type": "step",
+    "intensity_mm_per_hr": 95.09104077444547,
+    "duration_hours": 1.1185026357806604,
+    "initial_river_level": 184.0933081145152,
+    "initial_soil_saturation": 0.8933272906057177,
+    "timeseries_path": "sim_timeseries\\scenario_441.csv"
+  },
+  {
+    "scenario_id": 442,
+    "type": "ramp",
+    "intensity_mm_per_hr": 49.13923174764327,
+    "duration_hours": 4.764571379882902,
+    "initial_river_level": 184.72739178495817,
+    "initial_soil_saturation": 0.611725372279343,
+    "timeseries_path": "sim_timeseries\\scenario_442.csv"
+  },
+  {
+    "scenario_id": 443,
+    "type": "step",
+    "intensity_mm_per_hr": 19.42635294004093,
+    "duration_hours": 3.4744635610395513,
+    "initial_river_level": 186.19222069521098,
+    "initial_soil_saturation": 0.6417976794105471,
+    "timeseries_path": "sim_timeseries\\scenario_443.csv"
+  },
+  {
+    "scenario_id": 444,
+    "type": "step",
+    "intensity_mm_per_hr": 26.964306025207026,
+    "duration_hours": 3.846708619114467,
+    "initial_river_level": 185.5356035278522,
+    "initial_soil_saturation": 0.6656897600789352,
+    "timeseries_path": "sim_timeseries\\scenario_444.csv"
+  },
+  {
+    "scenario_id": 445,
+    "type": "step",
+    "intensity_mm_per_hr": 21.720600948238726,
+    "duration_hours": 1.0207808894801205,
+    "initial_river_level": 184.23306982054518,
+    "initial_soil_saturation": 0.32392574761220694,
+    "timeseries_path": "sim_timeseries\\scenario_445.csv"
+  },
+  {
+    "scenario_id": 446,
+    "type": "step",
+    "intensity_mm_per_hr": 24.575770494361933,
+    "duration_hours": 1.7495671341115089,
+    "initial_river_level": 184.7953747080858,
+    "initial_soil_saturation": 0.499266000547981,
+    "timeseries_path": "sim_timeseries\\scenario_446.csv"
+  },
+  {
+    "scenario_id": 447,
+    "type": "step",
+    "intensity_mm_per_hr": 12.888809441462692,
+    "duration_hours": 2.4156571493810355,
+    "initial_river_level": 183.3722570418395,
+    "initial_soil_saturation": 0.5382394180148455,
+    "timeseries_path": "sim_timeseries\\scenario_447.csv"
+  },
+  {
+    "scenario_id": 448,
+    "type": "pulse",
+    "intensity_mm_per_hr": 52.376170913558205,
+    "duration_hours": 2.167389405185284,
+    "initial_river_level": 184.55119823751357,
+    "initial_soil_saturation": 0.07622956523567026,
+    "timeseries_path": "sim_timeseries\\scenario_448.csv"
+  },
+  {
+    "scenario_id": 449,
+    "type": "step",
+    "intensity_mm_per_hr": 109.57283317446948,
+    "duration_hours": 4.912692256055549,
+    "initial_river_level": 185.28784172299817,
+    "initial_soil_saturation": 0.15262463105309296,
+    "timeseries_path": "sim_timeseries\\scenario_449.csv"
+  },
+  {
+    "scenario_id": 450,
+    "type": "step",
+    "intensity_mm_per_hr": 25.272406485535843,
+    "duration_hours": 2.204525061500275,
+    "initial_river_level": 184.97249576884315,
+    "initial_soil_saturation": 0.05694043524925896,
+    "timeseries_path": "sim_timeseries\\scenario_450.csv"
+  },
+  {
+    "scenario_id": 451,
+    "type": "step",
+    "intensity_mm_per_hr": 56.32125737497768,
+    "duration_hours": 2.936925255735714,
+    "initial_river_level": 183.30768544558063,
+    "initial_soil_saturation": 0.2265297640100126,
+    "timeseries_path": "sim_timeseries\\scenario_451.csv"
+  },
+  {
+    "scenario_id": 452,
+    "type": "step",
+    "intensity_mm_per_hr": 78.75370565457841,
+    "duration_hours": 3.3752255921563146,
+    "initial_river_level": 183.78219289952105,
+    "initial_soil_saturation": 0.0962751308228118,
+    "timeseries_path": "sim_timeseries\\scenario_452.csv"
+  },
+  {
+    "scenario_id": 453,
+    "type": "step",
+    "intensity_mm_per_hr": 114.37058086340217,
+    "duration_hours": 2.328868861246508,
+    "initial_river_level": 185.48076875149874,
+    "initial_soil_saturation": 0.7236688157616442,
+    "timeseries_path": "sim_timeseries\\scenario_453.csv"
+  },
+  {
+    "scenario_id": 454,
+    "type": "step",
+    "intensity_mm_per_hr": 46.82098461216527,
+    "duration_hours": 4.2619018800120125,
+    "initial_river_level": 186.43803386840335,
+    "initial_soil_saturation": 0.8768028388541461,
+    "timeseries_path": "sim_timeseries\\scenario_454.csv"
+  },
+  {
+    "scenario_id": 455,
+    "type": "pulse",
+    "intensity_mm_per_hr": 45.273167091259644,
+    "duration_hours": 4.789115688064465,
+    "initial_river_level": 183.80340595480828,
+    "initial_soil_saturation": 0.2827649530758972,
+    "timeseries_path": "sim_timeseries\\scenario_455.csv"
+  },
+  {
+    "scenario_id": 456,
+    "type": "step",
+    "intensity_mm_per_hr": 116.5597743921365,
+    "duration_hours": 2.165792606320213,
+    "initial_river_level": 185.77983107068843,
+    "initial_soil_saturation": 0.4419065816028921,
+    "timeseries_path": "sim_timeseries\\scenario_456.csv"
+  },
+  {
+    "scenario_id": 457,
+    "type": "step",
+    "intensity_mm_per_hr": 36.666672645863045,
+    "duration_hours": 2.5042212092965883,
+    "initial_river_level": 186.26597806173166,
+    "initial_soil_saturation": 0.3536416167655139,
+    "timeseries_path": "sim_timeseries\\scenario_457.csv"
+  },
+  {
+    "scenario_id": 458,
+    "type": "step",
+    "intensity_mm_per_hr": 72.02355594916645,
+    "duration_hours": 3.368908137001542,
+    "initial_river_level": 185.18251634180328,
+    "initial_soil_saturation": 0.613541369817079,
+    "timeseries_path": "sim_timeseries\\scenario_458.csv"
+  },
+  {
+    "scenario_id": 459,
+    "type": "step",
+    "intensity_mm_per_hr": 114.83050726349256,
+    "duration_hours": 2.846488891332594,
+    "initial_river_level": 185.83346820502425,
+    "initial_soil_saturation": 0.39460945887801774,
+    "timeseries_path": "sim_timeseries\\scenario_459.csv"
+  },
+  {
+    "scenario_id": 460,
+    "type": "step",
+    "intensity_mm_per_hr": 86.2118807256777,
+    "duration_hours": 4.275862272017834,
+    "initial_river_level": 186.18262734398382,
+    "initial_soil_saturation": 0.36822743122041135,
+    "timeseries_path": "sim_timeseries\\scenario_460.csv"
+  },
+  {
+    "scenario_id": 461,
+    "type": "ramp",
+    "intensity_mm_per_hr": 79.666964361903,
+    "duration_hours": 1.9680846706831954,
+    "initial_river_level": 185.63465187412928,
+    "initial_soil_saturation": 0.6437127521694835,
+    "timeseries_path": "sim_timeseries\\scenario_461.csv"
+  },
+  {
+    "scenario_id": 462,
+    "type": "step",
+    "intensity_mm_per_hr": 18.13616491405173,
+    "duration_hours": 4.9628024577478715,
+    "initial_river_level": 184.9169387990905,
+    "initial_soil_saturation": 0.3607245875964363,
+    "timeseries_path": "sim_timeseries\\scenario_462.csv"
+  },
+  {
+    "scenario_id": 463,
+    "type": "step",
+    "intensity_mm_per_hr": 111.24314029261254,
+    "duration_hours": 3.7668354635924306,
+    "initial_river_level": 185.1745808135499,
+    "initial_soil_saturation": 0.7116488253443333,
+    "timeseries_path": "sim_timeseries\\scenario_463.csv"
+  },
+  {
+    "scenario_id": 464,
+    "type": "ramp",
+    "intensity_mm_per_hr": 108.5051666896989,
+    "duration_hours": 3.1476239440983513,
+    "initial_river_level": 185.55272146804336,
+    "initial_soil_saturation": 0.07648374064588898,
+    "timeseries_path": "sim_timeseries\\scenario_464.csv"
+  },
+  {
+    "scenario_id": 465,
+    "type": "pulse",
+    "intensity_mm_per_hr": 82.33618090388423,
+    "duration_hours": 2.4200352777939584,
+    "initial_river_level": 185.5879993919336,
+    "initial_soil_saturation": 0.03986702417506464,
+    "timeseries_path": "sim_timeseries\\scenario_465.csv"
+  },
+  {
+    "scenario_id": 466,
+    "type": "step",
+    "intensity_mm_per_hr": 84.52190854506043,
+    "duration_hours": 2.598470984900329,
+    "initial_river_level": 186.0107311109184,
+    "initial_soil_saturation": 0.8691450999424455,
+    "timeseries_path": "sim_timeseries\\scenario_466.csv"
+  },
+  {
+    "scenario_id": 467,
+    "type": "step",
+    "intensity_mm_per_hr": 11.160255006303796,
+    "duration_hours": 2.0349534816146218,
+    "initial_river_level": 185.04270496210017,
+    "initial_soil_saturation": 0.4669179901644146,
+    "timeseries_path": "sim_timeseries\\scenario_467.csv"
+  },
+  {
+    "scenario_id": 468,
+    "type": "step",
+    "intensity_mm_per_hr": 73.27589380974688,
+    "duration_hours": 2.783114206019627,
+    "initial_river_level": 184.56453667471,
+    "initial_soil_saturation": 0.6951080092161889,
+    "timeseries_path": "sim_timeseries\\scenario_468.csv"
+  },
+  {
+    "scenario_id": 469,
+    "type": "step",
+    "intensity_mm_per_hr": 65.05123597817081,
+    "duration_hours": 2.379869550398073,
+    "initial_river_level": 183.09825061210307,
+    "initial_soil_saturation": 0.09409442220545552,
+    "timeseries_path": "sim_timeseries\\scenario_469.csv"
+  },
+  {
+    "scenario_id": 470,
+    "type": "step",
+    "intensity_mm_per_hr": 115.79006522479673,
+    "duration_hours": 1.4642773518358987,
+    "initial_river_level": 186.76270463258479,
+    "initial_soil_saturation": 0.12750765914839346,
+    "timeseries_path": "sim_timeseries\\scenario_470.csv"
+  },
+  {
+    "scenario_id": 471,
+    "type": "step",
+    "intensity_mm_per_hr": 60.08658987484648,
+    "duration_hours": 1.827469304833258,
+    "initial_river_level": 184.93170399511754,
+    "initial_soil_saturation": 0.4285462780882472,
+    "timeseries_path": "sim_timeseries\\scenario_471.csv"
+  },
+  {
+    "scenario_id": 472,
+    "type": "step",
+    "intensity_mm_per_hr": 86.64395920760327,
+    "duration_hours": 2.2756378968708018,
+    "initial_river_level": 184.20105633272777,
+    "initial_soil_saturation": 0.7291673432268283,
+    "timeseries_path": "sim_timeseries\\scenario_472.csv"
+  },
+  {
+    "scenario_id": 473,
+    "type": "pulse",
+    "intensity_mm_per_hr": 103.40980088516007,
+    "duration_hours": 3.5918796691108548,
+    "initial_river_level": 185.70855733156353,
+    "initial_soil_saturation": 0.14791868356563292,
+    "timeseries_path": "sim_timeseries\\scenario_473.csv"
+  },
+  {
+    "scenario_id": 474,
+    "type": "pulse",
+    "intensity_mm_per_hr": 36.8304241207192,
+    "duration_hours": 1.6978129312965358,
+    "initial_river_level": 183.64054284486144,
+    "initial_soil_saturation": 0.5038640572408768,
+    "timeseries_path": "sim_timeseries\\scenario_474.csv"
+  },
+  {
+    "scenario_id": 475,
+    "type": "step",
+    "intensity_mm_per_hr": 35.50411021525514,
+    "duration_hours": 2.6201897451210114,
+    "initial_river_level": 183.73780710060558,
+    "initial_soil_saturation": 0.5764309889940703,
+    "timeseries_path": "sim_timeseries\\scenario_475.csv"
+  },
+  {
+    "scenario_id": 476,
+    "type": "step",
+    "intensity_mm_per_hr": 13.211150177662963,
+    "duration_hours": 3.456427749487679,
+    "initial_river_level": 183.789297743129,
+    "initial_soil_saturation": 0.5329828425243315,
+    "timeseries_path": "sim_timeseries\\scenario_476.csv"
+  },
+  {
+    "scenario_id": 477,
+    "type": "step",
+    "intensity_mm_per_hr": 87.52091775557079,
+    "duration_hours": 1.8231379174692877,
+    "initial_river_level": 186.00930198144198,
+    "initial_soil_saturation": 0.7278568097681347,
+    "timeseries_path": "sim_timeseries\\scenario_477.csv"
+  },
+  {
+    "scenario_id": 478,
+    "type": "step",
+    "intensity_mm_per_hr": 21.192725359985662,
+    "duration_hours": 4.487917320039541,
+    "initial_river_level": 183.74783934252838,
+    "initial_soil_saturation": 0.29338642043893665,
+    "timeseries_path": "sim_timeseries\\scenario_478.csv"
+  },
+  {
+    "scenario_id": 479,
+    "type": "step",
+    "intensity_mm_per_hr": 38.858873499759696,
+    "duration_hours": 4.450546189829229,
+    "initial_river_level": 185.11086007851114,
+    "initial_soil_saturation": 0.5751977270995355,
+    "timeseries_path": "sim_timeseries\\scenario_479.csv"
+  },
+  {
+    "scenario_id": 480,
+    "type": "ramp",
+    "intensity_mm_per_hr": 77.2439263252902,
+    "duration_hours": 3.348018858260872,
+    "initial_river_level": 184.39169854974702,
+    "initial_soil_saturation": 0.7609660224026034,
+    "timeseries_path": "sim_timeseries\\scenario_480.csv"
+  },
+  {
+    "scenario_id": 481,
+    "type": "step",
+    "intensity_mm_per_hr": 99.51120796870272,
+    "duration_hours": 3.82395344378392,
+    "initial_river_level": 184.1897793387974,
+    "initial_soil_saturation": 0.5530360641416275,
+    "timeseries_path": "sim_timeseries\\scenario_481.csv"
+  },
+  {
+    "scenario_id": 482,
+    "type": "ramp",
+    "intensity_mm_per_hr": 24.73425466157817,
+    "duration_hours": 1.4714466106466269,
+    "initial_river_level": 184.221520010142,
+    "initial_soil_saturation": 0.16474006649833514,
+    "timeseries_path": "sim_timeseries\\scenario_482.csv"
+  },
+  {
+    "scenario_id": 483,
+    "type": "step",
+    "intensity_mm_per_hr": 66.1907356435877,
+    "duration_hours": 2.6729564248450344,
+    "initial_river_level": 183.55146919413824,
+    "initial_soil_saturation": 0.3453389665539183,
+    "timeseries_path": "sim_timeseries\\scenario_483.csv"
+  },
+  {
+    "scenario_id": 484,
+    "type": "step",
+    "intensity_mm_per_hr": 79.90518062644988,
+    "duration_hours": 3.773731706117421,
+    "initial_river_level": 185.5810403803198,
+    "initial_soil_saturation": 0.8999095973067829,
+    "timeseries_path": "sim_timeseries\\scenario_484.csv"
+  },
+  {
+    "scenario_id": 485,
+    "type": "step",
+    "intensity_mm_per_hr": 63.86062288114297,
+    "duration_hours": 1.5611861403911882,
+    "initial_river_level": 184.25832005864336,
+    "initial_soil_saturation": 0.405900873671986,
+    "timeseries_path": "sim_timeseries\\scenario_485.csv"
+  },
+  {
+    "scenario_id": 486,
+    "type": "pulse",
+    "intensity_mm_per_hr": 49.49430893885057,
+    "duration_hours": 1.038333758253125,
+    "initial_river_level": 183.54613885864998,
+    "initial_soil_saturation": 0.7336943465884757,
+    "timeseries_path": "sim_timeseries\\scenario_486.csv"
+  },
+  {
+    "scenario_id": 487,
+    "type": "ramp",
+    "intensity_mm_per_hr": 65.59818217037375,
+    "duration_hours": 2.9798793914656145,
+    "initial_river_level": 185.73878668223995,
+    "initial_soil_saturation": 0.37406739174670073,
+    "timeseries_path": "sim_timeseries\\scenario_487.csv"
+  },
+  {
+    "scenario_id": 488,
+    "type": "step",
+    "intensity_mm_per_hr": 63.75694631336542,
+    "duration_hours": 1.3306825031458676,
+    "initial_river_level": 183.12344282257203,
+    "initial_soil_saturation": 0.6849509566908818,
+    "timeseries_path": "sim_timeseries\\scenario_488.csv"
+  },
+  {
+    "scenario_id": 489,
+    "type": "ramp",
+    "intensity_mm_per_hr": 40.23382101008873,
+    "duration_hours": 3.1504344728192777,
+    "initial_river_level": 183.67283590974628,
+    "initial_soil_saturation": 0.4115892485461042,
+    "timeseries_path": "sim_timeseries\\scenario_489.csv"
+  },
+  {
+    "scenario_id": 490,
+    "type": "ramp",
+    "intensity_mm_per_hr": 94.25115104380598,
+    "duration_hours": 3.1989047381522053,
+    "initial_river_level": 183.4528439811681,
+    "initial_soil_saturation": 0.10278598622307192,
+    "timeseries_path": "sim_timeseries\\scenario_490.csv"
+  },
+  {
+    "scenario_id": 491,
+    "type": "ramp",
+    "intensity_mm_per_hr": 100.56110887973233,
+    "duration_hours": 2.4674470884216837,
+    "initial_river_level": 186.29044371118505,
+    "initial_soil_saturation": 0.03744947004320999,
+    "timeseries_path": "sim_timeseries\\scenario_491.csv"
+  },
+  {
+    "scenario_id": 492,
+    "type": "ramp",
+    "intensity_mm_per_hr": 70.09886021941611,
+    "duration_hours": 4.959102911506733,
+    "initial_river_level": 183.40966575551,
+    "initial_soil_saturation": 0.7470636448882858,
+    "timeseries_path": "sim_timeseries\\scenario_492.csv"
+  },
+  {
+    "scenario_id": 493,
+    "type": "ramp",
+    "intensity_mm_per_hr": 42.7479828613183,
+    "duration_hours": 4.99725067711563,
+    "initial_river_level": 184.79892937132166,
+    "initial_soil_saturation": 0.31371927914008246,
+    "timeseries_path": "sim_timeseries\\scenario_493.csv"
+  },
+  {
+    "scenario_id": 494,
+    "type": "ramp",
+    "intensity_mm_per_hr": 58.29768937216662,
+    "duration_hours": 4.975830737274468,
+    "initial_river_level": 186.1025265995231,
+    "initial_soil_saturation": 0.21325144983001312,
+    "timeseries_path": "sim_timeseries\\scenario_494.csv"
+  },
+  {
+    "scenario_id": 495,
+    "type": "step",
+    "intensity_mm_per_hr": 74.67162866744917,
+    "duration_hours": 2.4025233644559587,
+    "initial_river_level": 185.8430158379752,
+    "initial_soil_saturation": 0.5694935678344246,
+    "timeseries_path": "sim_timeseries\\scenario_495.csv"
+  },
+  {
+    "scenario_id": 496,
+    "type": "step",
+    "intensity_mm_per_hr": 25.31584625194537,
+    "duration_hours": 1.8264786247470934,
+    "initial_river_level": 183.82777088300708,
+    "initial_soil_saturation": 0.053422050275406995,
+    "timeseries_path": "sim_timeseries\\scenario_496.csv"
+  },
+  {
+    "scenario_id": 497,
+    "type": "step",
+    "intensity_mm_per_hr": 40.919352066921775,
+    "duration_hours": 3.155074184190552,
+    "initial_river_level": 184.29461446341872,
+    "initial_soil_saturation": 0.6336483855796697,
+    "timeseries_path": "sim_timeseries\\scenario_497.csv"
+  },
+  {
+    "scenario_id": 498,
+    "type": "step",
+    "intensity_mm_per_hr": 39.40773729058881,
+    "duration_hours": 4.43206737978503,
+    "initial_river_level": 186.94195320904717,
+    "initial_soil_saturation": 0.6113693843309791,
+    "timeseries_path": "sim_timeseries\\scenario_498.csv"
+  },
+  {
+    "scenario_id": 499,
+    "type": "pulse",
+    "intensity_mm_per_hr": 115.90491944931712,
+    "duration_hours": 4.142764193165189,
+    "initial_river_level": 186.6750748473193,
+    "initial_soil_saturation": 0.8932376030802069,
+    "timeseries_path": "sim_timeseries\\scenario_499.csv"
+  },
+  {
+    "scenario_id": 500,
+    "type": "ramp",
+    "intensity_mm_per_hr": 23.95769854751913,
+    "duration_hours": 4.464315179964627,
+    "initial_river_level": 183.99870896775255,
+    "initial_soil_saturation": 0.6402553639552522,
+    "timeseries_path": "sim_timeseries\\scenario_500.csv"
+  }
+]

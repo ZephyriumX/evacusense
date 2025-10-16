@@ -1,0 +1,51 @@
+{
+  "cell_1284": {
+    "rain_mm_10m": 3.54,
+    "river_level": 3.6,
+    "cumulative_rain_6h": 0.3,
+    "cumulative_rain_24h": 147.2,
+    "timestamp": "2025-10-16T12:54:35.045786Z"
+  },
+  "cell_1205": {
+    "rain_mm_10m": 29.13,
+    "river_level": 6.18,
+    "cumulative_rain_6h": 107.8,
+    "cumulative_rain_24h": 0.9,
+    "timestamp": "2025-10-16T12:54:35.045786Z"
+  },
+  "cell_1348": {
+    "rain_mm_10m": 26.84,
+    "river_level": 3.85,
+    "cumulative_rain_6h": 132.4,
+    "cumulative_rain_24h": 55.1,
+    "timestamp": "2025-10-16T12:54:35.045786Z"
+  },
+  "cell_1189": {
+    "rain_mm_10m": 0.83,
+    "river_level": 5.18,
+    "cumulative_rain_6h": 138.5,
+    "cumulative_rain_24h": 156.3,
+    "timestamp": "2025-10-16T12:54:35.045786Z"
+  },
+  "cell_1188": {
+    "rain_mm_10m": 18.79,
+    "river_level": 4.84,
+    "cumulative_rain_6h": 123.4,
+    "cumulative_rain_24h": 9.9,
+    "timestamp": "2025-10-16T12:54:35.045786Z"
+  },
+  "cell_1187": {
+    "rain_mm_10m": 1.08,
+    "river_level": 3.18,
+    "cumulative_rain_6h": 1.5,
+    "cumulative_rain_24h": 217.1,
+    "timestamp": "2025-10-16T12:54:35.045786Z"
+  },
+  "cell_3680": {
+    "rain_mm_10m": 11.55,
+    "river_level": 2.77,
+    "cumulative_rain_6h": 58.9,
+    "cumulative_rain_24h": 24.9,
+    "timestamp": "2025-10-16T12:54:35.045786Z"
+  }
+}
