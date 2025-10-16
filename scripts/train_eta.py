@@ -147,22 +147,21 @@ def train_models(X_reg_train, X_reg_val, y_reg_train, y_reg_val,
     clf.fit(X_clf_train, y_clf_train)
     y_clf_pred = clf.predict(X_clf_val)
 
-    # Determine probabilities / scores in a safe way (use getattr + callable to satisfy Pylance)
+    # Determine probabilities / scores in a safe, Pylance-friendly way
     y_clf_prob = None
-    pred_proba_fn = getattr(clf, "predict_proba", None)
-    if callable(pred_proba_fn):
+    if hasattr(clf, "predict_proba"):
         try:
-            y_clf_prob = pred_proba_fn(X_clf_val)[:, 1]
+            y_clf_prob = clf.predict_proba(X_clf_val)[:, 1]
         except Exception:
             y_clf_prob = None
-
+    if y_clf_prob is None and hasattr(clf, "decision_function"):
+        try:
+            y_clf_prob = clf.decision_function(X_clf_val) # type: ignore
+        except Exception:
+            y_clf_prob = None
+    # fallback to using predicted labels if no scoring available
     if y_clf_prob is None:
-        decision_fn = getattr(clf, "decision_function", None)
-        if callable(decision_fn):
-            try:
-                y_clf_prob = decision_fn(X_clf_val)
-            except Exception:
-                y_clf_prob = None
+        y_clf_prob = y_clf_pred
 
     acc = accuracy_score(y_clf_val, y_clf_pred)
     prec = precision_score(y_clf_val, y_clf_pred, zero_division=0)

@@ -1,74 +1,87 @@
 # scripts/generate_predictions.py
-"""
-Simple generator to create data/generated/uttam_flood_predictions.json
-Usage:
-    python scripts/generate_predictions.py \
-        --zones data/zones_def.json \
-        --out data/generated/uttam_flood_predictions.json
-"""
-import json
-import argparse
-from datetime import datetime, timedelta
-import uuid
-import os
+import json, random
+from datetime import datetime
+from pathlib import Path
+import logging
 
-def load_zones(zones_path):
-    with open(zones_path, 'r', encoding='utf-8') as f:
-        return json.load(f)
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger("generate_predictions")
 
-def make_prediction_for_zone(zone, base_time):
-    # sample structure — adapt keys to exactly match your mock_uttam_sequence.json if needed
-    return {
-        "prediction_id": str(uuid.uuid4()),
-        "zone_id": zone.get("zone_id") or zone.get("id") or zone.get("name"),
-        "zone_name": zone.get("name", ""),
-        "timestamp_utc": base_time.isoformat() + "Z",
-        "eta_minutes": int(zone.get("eta_minutes", 30)),  # example numeric
-        "risk_score": round(float(zone.get("risk_score", 0.3)), 3),
-        "recommended_action": zone.get("recommended_action", "evacuate" if zone.get("risk_score", 0.3) > 0.5 else "monitor"),
-        "metadata": {
-            "source": "uttam_generator_v1",
-            "model_files": ["eta_regressor.joblib", "eta_classifier.joblib"]
-        }
-    }
+# paths
+LIVE_FEED = Path("data/live/live_feed.json")
+ZONES_DEF = Path("data/zones_def.json")
+OUT_PATH = Path("data/generated/uttam_flood_predictions.json")
 
-def main(args):
-    zones = load_zones(args.zones)
-    # ensure generated directory exists
-    out_dir = os.path.dirname(args.out)
-    if out_dir and not os.path.exists(out_dir):
-        os.makedirs(out_dir, exist_ok=True)
+def map_to_alert_level(prob, eta):
+    """Convert probability + ETA to alert color level."""
+    if prob >= 0.7:
+        level = 3  # 🔴 Evacuate
+    elif prob >= 0.4:
+        level = 2  # 🟠 Prepare
+    elif prob >= 0.2:
+        level = 1  # 🟡 Monitor
+    else:
+        level = 0  # 🟢 Safe
+    # bump risk if flood is imminent
+    if eta <= 30 and prob >= 0.4:
+        level = min(3, level + 1)
+    if eta <= 10 and prob >= 0.6:
+        level = 3
+    return level
 
-    base_time = datetime.utcnow()
-    sequence = {
+def rule_based_eta_risk(rain, river, cum24, dist2river=1000):
+    """Simple rule model producing risk_score + ETA (min)."""
+    rn24 = min(1.0, cum24 / 250.0)
+    rriver = min(1.0, river / 7.0)
+    pdist = max(0.0, 1.0 - dist2river / 5000.0)
+    risk = 0.5 * rn24 + 0.3 * rriver + 0.2 * pdist
+    eta = int(max(5, (dist2river / 80.0) - rain * 0.5))
+    return round(risk, 3), eta
+
+def main():
+    if not ZONES_DEF.exists():
+        logger.error(f"Missing {ZONES_DEF}")
+        return
+    zones = json.load(open(ZONES_DEF))
+    try:
+        live = json.load(open(LIVE_FEED))
+        logger.info(f"✅ Loaded live feed with {len(live)} zones")
+    except Exception:
+        live = {}
+        logger.warning("⚠️  No live feed found, using random fallback values")
+
+    preds = []
+    for zid, zdata in zones.items():
+        live_z = live.get(zid, {})
+        rain = live_z.get("rain_mm_10m", random.uniform(0, 10))
+        river = live_z.get("river_level", random.uniform(2.5, 5.5))
+        cum24 = live_z.get("cumulative_rain_24h", random.uniform(0, 200))
+
+        risk, eta = rule_based_eta_risk(rain, river, cum24)
+        level = map_to_alert_level(risk, eta)
+
+        preds.append({
+            "zone_id": zid,
+            "risk_score": risk,
+            "eta_minutes": eta,
+            "alert_level": level,
+            "rain_mm_10m": rain,
+            "river_level": river,
+            "cumulative_rain_24h": cum24,
+            "timestamp_utc": datetime.utcnow().isoformat() + "Z",
+            "recommended_action": ["safe", "monitor", "prepare", "evacuate"][level]
+        })
+
+    out = {
         "project": "EvacuSense",
         "owner": "uttam",
-        "generated_at": base_time.isoformat() + "Z",
-        "predictions": []
+        "generated_at": datetime.utcnow().isoformat() + "Z",
+        "predictions": preds
     }
-    # if zones is a dict with key 'zones', use it
-    if isinstance(zones, dict) and "zones" in zones:
-        zone_list = zones["zones"]
-    elif isinstance(zones, list):
-        zone_list = zones
-    else:
-        # fallback: put the whole object as one zone
-        zone_list = [zones]
 
-    for i, zone in enumerate(zone_list):
-        # offset timestamps slightly for sequence
-        pred_time = base_time + timedelta(minutes=5 * i)
-        p = make_prediction_for_zone(zone, pred_time)
-        sequence["predictions"].append(p)
-
-    with open(args.out, 'w', encoding='utf-8') as f:
-        json.dump(sequence, f, indent=2, ensure_ascii=False)
-
-    print(f"Wrote {len(sequence['predictions'])} predictions to {args.out}")
+    OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    json.dump(out, open(OUT_PATH, "w"), indent=2)
+    logger.info(f"✅ Generated {len(preds)} predictions → {OUT_PATH}")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--zones", required=True, help="path to zones_def.json")
-    parser.add_argument("--out", default="data/generated/uttam_flood_predictions.json", help="output JSON file")
-    args = parser.parse_args()
-    main(args)
+    main()
